@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>School Website</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- favicon
+		============================================ -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon1.ico" />
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-M4A4P4GJEr5d5z0ey7VrZ+P5AS6PcJ6/LFWU/OL0y6aKH+7BTgrgK8Jb7H+YGtlm" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pKzuVY3q1QDfV5d5a5n5nMf5fy6zXUi6U68OWfuUuYwOhGgy6Uk/7xZvg0Wwn1zS" crossorigin="anonymous">
+  </script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/venobox/venobox/venobox.min.css" type="text/css"
+    media="screen" />
+  <script src="https://cdn.jsdelivr.net/npm/venobox/venobox/venobox.min.js"></script>
+
+
+  <!-- Google Fonts
+		============================================ -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700" rel="stylesheet" type="text/css" />
+
+  <!-- Style CSS
+		============================================ -->
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://www.vnsc.edu.bd/frontend/vnsc/js/venobox.min.js"></script>
+
+  <!-- Modernizr JS
+		============================================ -->
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+  <!--Header Area Start-->
+  <header>
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-8">
+            <div class="header-top-info">
+              <span>Open hours: 8.00-18.00 Mon-Sat</span>
+              <div class="social-links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </div>
+              <p>EIIN: 4321</p>
+              <p>Institute Code: 1234567</p>
+            </div>
+
+          </div>
+          <div class="col-lg-5 col-md-4">
+            <div class="header-login-register">
+              <ul class="login">
+                <li>
+                  <a href="#"><i class="fa fa-key"></i>Login</a>
+                  <div class="login-form">
+                    <h4>Login</h4>
+                    <form action="#" method="post">
+                      <div class="form-box">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="user-name" placeholder="Username" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="user-password" placeholder="Password" />
+                      </div>
+                      <div class="button-box">
+                        <button type="submit" class="login-btn">Login</button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+              <ul class="register">
+                <li>
+                  <a href="#"><i class="fa fa-lock"></i>Sign Up</a>
+                  <div class="register-form">
+                    <h4>Sign Up</h4>
+                    <span>Please sign up using account detail bellow.</span>
+                    <form action="#" method="post">
+                      <div class="form-box">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="user-name" placeholder="Username" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="user-password" placeholder="Password" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" name="user-email" placeholder="Email" />
+                      </div>
+                      <div class="button-box">
+                        <input checked data-toggle="toggle" type="checkbox" />
+                        <span>Remember me</span>
+                        <button type="submit" class="register-btn">
+                          Register
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------ -->
+    <div class="col-md-12 text-blue text-center">
+      <h2>
+        <span style="color:#0b0a0a;font-size:25px;font-family: sans-serif; ">Web Point</span><br>
+        <span style="color:#0f0e0e;font-size:25px;font-family: sans-serif;">ওয়েব পয়েন্ট লিমিটেড</span>
+      </h2>
+    </div>
+    <!--Logo Mainmenu Start-->
+    <div class="header-logo-menu sticker">
+      <div class="container">
+        <div class="logo-menu-bg">
+          <div class="row">
+            <div class="col-lg-3 col-md-12">
+              <div class="logo">
+                <a href="index.html"><img src="img/logo/logo.png" alt="logo" /></a>
+              </div>
+            </div>
+            <div class="col-lg-9 d-none d-lg-block">
+              <div class="mainmenu-area">
+                <div class="mainmenu">
+                  <nav>
+                    <ul id="nav">
+                      <li><a href="index.html">Home</a></li>
+                      <li class="current">
+                        <a href="index.html">Institute <i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="#">About Institute <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="about.html">Introduction </a></li>
+                              <li><a href="GoverningBody.html">Governing Body</a></li>
+                              <li><a href="#">Founder & Donor</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Admistration Message <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="#">Introduction </a></li>
+                              <li><a href="#">Governing Body</a></li>
+                              <li><a href="#">Founder & Donor</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Admistration Message</a>
+                          </li>
+                          <li>
+                            <a href="index-4.html">Infrastructure</a>
+                          </li>
+                          <li>
+                            <a href="index-5.html">Academics</a>
+                          </li>
+                          <li>
+                            <a href="index-5.html">Digital Campus</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a href="class-grid.html">Team <i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li><a href="class-grid.html"> Managing Committee </a></li>
+                          <li><a href="class-list.html"> Teachers </a></li>
+                          <li>
+                            <a href="class-details.html">Staff</a>
+                          </li>
+                          <li>
+                            <a href="class-details.html"> Women Abuse Prevention Committee </a>
+                          </li>
+                          <li>
+                            <a href="class-details.html"> Teacher & Staff Welfare Trust </a>
+                          </li>
+                          <li>
+                            <a href="class-details.html"> Teachers Council Information </a>
+                          </li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="teacher.html">Result<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="teacher-info.html">Internal Result</a>
+                          </li>
+                          <li>
+                            <a href="teacher-info.html">Public Examination</a>
+                          </li>
+                          <li>
+                            <a href="teacher-info.html">Online Admission</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li>
+                        <a href="index.html">News & Notice<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li><a href="#">Notice & News</a></li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="blog.html">Information<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="blog-details.html"> Sports & Cultural Program </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Center Information </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Scholarship Info </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> BNCC </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Rover Scout </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Tender </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Privacy Policy </a>
+                          </li>
+
+
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <ul class="header-search">
+                  <li class="search-menu">
+                    <i id="toggle-search" class="fa fa-search"></i>
+                  </li>
+                </ul>
+                <!--Search Form-->
+                <div class="search">
+                  <div class="search-form">
+                    <form id="search-form" action="#">
+                      <input type="search" placeholder="Search here..." name="search" />
+                      <button type="submit">
+                        <span><i class="fa fa-search"></i></span>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <!--End of Search Form-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of Logo Mainmenu-->
+    <!-- Mobile Menu Area start -->
+    <div class="mobile-menu-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="mobile-menu">
+              <nav id="dropdown">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li>
+                    <a href="index.html">Institute </a>
+                    <ul>
+                      <li><a href="index-2.html">About Institute</a>
+                        <ul class="subdrop">
+                          <li class="bg-primary"><a href="#">Introduction</a></li>
+                          <li class="bg-success"><a href="#">Governing Body</a></li>
+                          <li class="bg-primary"><a href="#">Founder & Donor</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="index-3.html">Admistration Message</a></li>
+                      <li><a href="index-4.html">Infrastructure</a></li>
+                      <li><a href="index-5.html">Academics</a></li>
+                      <li><a href="index-5.html">Digital Campus</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="class-grid.html">Team</a>
+                    <ul>
+                      <li><a href="class-grid.html">Managing Committee</a></li>
+                      <li><a href="class-list.html">Teachers</a></li>
+                      <li><a href="class-details.html">Staff</a></li>
+                      <li><a href="class-details.html">Women Abuse Prevention Committee</a></li>
+                      <li><a href="class-details.html">Teacher & Staff Welfare Trust</a></li>
+                      <li><a href="class-details.html">Teachers Council Information</a></li>
+
+
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="teacher.html">Result</a>
+                    <ul>
+                      <li><a href="teacher-info.html">Internal Result</a></li>
+                      <li><a href="teacher-info.html">Public Examination</a></li>
+                      <li><a href="teacher-info.html">Online Admission</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li>
+                    <a href="#.html">News & Notice</a>
+                    <ul>
+                      <li><a href="#.html">Notice & News</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="class-grid.html">Information</a>
+                    <ul>
+                      <li><a href="class-grid.html">Sports & Cultural Program </a></li>
+                      <li><a href="class-list.html">Center Information</a></li>
+                      <li><a href="class-details.html"> Scholarship Info</a></li>
+                      <li><a href="class-details.html">BNCC </a></li>
+                      <li><a href="class-details.html">Rover Scout</a></li>
+                      <li><a href="class-details.html">Tender</a></li>
+                      <li> <a href="blog-details.html"> Privacy Policy </a> </li>
+
+                    </ul>
+                  </li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu Area end -->
+  </header>
+  <!--End of Header Area-->
+
+
+    <section class="padding-y-100 border-bottom m-2" style="border: 1px solid black
+    ;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <h2
+                        style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-family: DauphinPlain; font-size: 24px; line-height: 24px; color: rgb(0, 0, 0);">
+                        <span style="color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont,">Governing Body</span><br></h2>
+                    <p
+                        style="box-sizing: inherit; font-size: 15.2px; line-height: 1.4; clear: both; font-family: sans-serif;">
+                        <span style="color: rgb(0, 0, 0); font-size: 15.2px; font-family: Helvetica;">We are delighted
+                            that you are considering Our School for your son’s future. This institution has honed and
+                            fine tuned a learning and life-skilling system that has been envied and bench marked across
+                            India and the region for many decades.</span></p>
+                    <p style="box-sizing: inherit; line-height: 1.4; clear: both;">
+                        <font color="#000000" style="font-family: sans-serif; font-size: 15.2px;"><span
+                                style="font-family: Arial;">An investment made in a&nbsp; School&nbsp;</span></font>
+                        <font color="#000000">
+                            <font face="Arial"><span style="font-size: 15.2px;">education&nbsp;pays many
+                                    dividends&nbsp;</span></font>
+                        </font>
+                        <font face="sans-serif"><span style="font-size: 15.2px;">through life. From the moment he enters
+                                the school gates as a 12-year old, a child gets to realize who he is; and where his
+                                potentialities. Irrespective of his background or caliber, he is groomed and nurtured in
+                                a way that he can stride into the adult world,confidently, responsibly and
+                                independently. Multiple generations of successful&nbsp;students are living proof that
+                                this unique learning system works, and works well.</span></font>
+                    </p>
+                    <p
+                        style="box-sizing: inherit; font-size: 15.2px; line-height: 1.4; clear: both; font-family: sans-serif;">
+                        <span style="color: rgb(0, 0, 0); font-size: 15.2px; font-family: Arial;">Yet, in today’s world,
+                            no institution of repute and quality can afford&nbsp;</span>to sit on its laurels. So, a
+                        decisive shift is being engineered that will help India’s best school gain a global reputation,
+                        and go where no school from Bangladesh has ever gone.</p>
+                    <p style="margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify; color: rgb(0, 0, 0); font-family: "
+                        open="" sans",="" arial,="" sans-serif;="" font-size:="" 14px;"=""><img
+                            src="data:image/jpeg;base64,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"
+                            style="width: 25%; float: right;" data-filename="download.jpg" class="note-float-right"></p>
+                </div>
+            </div> <!-- END row-->
+        </div> <!-- END container-->
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--Footer Area Start-->
+  <div class="footer-area">
+    <div class="container">
+      <div class="footer-widget-container section-padding ">
+        <div class="row">
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget">
+              <img src="img/logo/logo.png" alt="">
+              <ul class="footer-widget-list ">
+                <p>WP-IMS is a latest technology of educational institute’s digitization. This is the fastest and most
+                  intelligent application ever made in Bangladesh.</p>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget ">
+              <h4>Links</h4>
+              <ul class="footer-widget-list ">
+                <li><a href="#"> Dhaka Education Board</a></li>
+                <li><a href="#"> Ministry of Education</a></li>
+                <li><a href="#"> National University</a></li>
+                <li><a href="#"> 10 minute school</a></li>
+                <li><a href="#"> Khan Academy</a></li>
+                <li><a href="#">শিক্ষক বাতায়ন</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget">
+              <h4>Contact Us</h4>
+              <ul class="footer-widget-list fwl">
+
+                <li class="list-inline-item"><a class="iconbox   mr-3  mt-2" href="#" target="_blank"><i
+                      class="fa fa-phone  " aria-hidden="true" style=" color: #f9f9f9;font-size: 16px; "></i> </a><a
+                    href="tel:+8801875004610">+8801875004610</a>
+                </li>
+                <li class="list-inline-item"><a class="iconbox   mr-3  mt-2" href="#" target="_blank"><i
+                      class="fa fa-envelope  " aria-hidden="true" style=" color: #ffffff;font-size: 16px; "></i></a> <a
+                    href="">info@webpointbd.com</a> </li>
+
+                <li>
+                  <div class="media">
+                    <a class="iconbox   mr-3  mt-3" href="#" target="_blank"><i class="fa fa-map-marker   "
+                        aria-hidden="true" style=" color: #ffffff;font-size: 16px; "></i></a>
+                    <div class="media-body">
+                      <a href="#" style="line-height: normal;">Hoque Mansion(1st Floor),Arakan Road, Badurtola,
+                        Panchlaish,Chattogram</a>
+                    </div>
+                  </div>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 footerCopyRight ">
+          <div class="footer-container">
+            <div class="row">
+              <div class="col-lg-6 ">
+                <span>&copy;
+                  <a href="#"> 2023 WebPointLtd. All rights reserved. Created by Web Point Ltd.</a>
+                </span>
+              </div>
+              <div class="col-lg-6">
+                <div class="social-links">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Footer Area-->
+
+  <!-- jquery
+		============================================ -->
+  <script src="js/vendor/jquery-1.12.3.min.js"></script>
+
+  <!-- Popper JS
+		============================================ -->
+  <script src="js/popper.js"></script>
+
+  <!-- bootstrap JS
+		============================================ -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- bootstrap Toggle JS
+		============================================ -->
+  <script src="js/bootstrap-toggle.min.js"></script>
+
+  <!-- nivo slider js
+		============================================ -->
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js"></script>
+  <script src="lib/nivo-slider/home.js"></script>
+
+  <!-- wow JS
+		============================================ -->
+  <script src="js/wow.min.js"></script>
+
+  <!-- meanmenu JS
+		============================================ -->
+  <script src="js/jquery.meanmenu.js"></script>
+
+  <!-- Owl carousel JS
+		============================================ -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!-- Countdown JS
+		============================================ -->
+  <script src="js/jquery.countdown.min.js"></script>
+
+  <!-- scrollUp JS
+		============================================ -->
+  <script src="js/jquery.scrollUp.min.js"></script>
+
+  <!-- Waypoints JS
+		============================================ -->
+  <script src="js/waypoints.min.js"></script>
+
+  <!-- Counterup JS
+		============================================ -->
+  <script src="js/jquery.counterup.min.js"></script>
+
+  <!-- Slick JS
+		============================================ -->
+  <script src="js/slick.min.js"></script>
+
+  <!-- Mix It Up JS
+		============================================ -->
+  <script src="js/jquery.mixitup.js"></script>
+
+  <!-- Venubox JS
+		============================================ -->
+  <script src="js/venobox.min.js"></script>
+
+  <!-- plugins JS
+		============================================ -->
+  <script src="js/plugins.js"></script>
+
+  <!-- main JS
+		============================================ -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

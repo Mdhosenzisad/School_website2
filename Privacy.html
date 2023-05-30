@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>School Website</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- favicon
+		============================================ -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon1.ico" />
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-M4A4P4GJEr5d5z0ey7VrZ+P5AS6PcJ6/LFWU/OL0y6aKH+7BTgrgK8Jb7H+YGtlm" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pKzuVY3q1QDfV5d5a5n5nMf5fy6zXUi6U68OWfuUuYwOhGgy6Uk/7xZvg0Wwn1zS" crossorigin="anonymous">
+  </script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/venobox/venobox/venobox.min.css" type="text/css"
+    media="screen" />
+  <script src="https://cdn.jsdelivr.net/npm/venobox/venobox/venobox.min.js"></script>
+
+
+  <!-- Google Fonts
+		============================================ -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700" rel="stylesheet" type="text/css" />
+
+  <!-- Style CSS
+		============================================ -->
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://www.vnsc.edu.bd/frontend/vnsc/js/venobox.min.js"></script>
+
+  <!-- Modernizr JS
+		============================================ -->
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+  <!--Header Area Start-->
+  <header>
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-8">
+            <div class="header-top-info">
+              <span>Open hours: 8.00-18.00 Mon-Sat</span>
+              <div class="social-links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </div>
+              <p>EIIN: 4321</p>
+              <p>Institute Code: 1234567</p>
+            </div>
+
+          </div>
+          <div class="col-lg-5 col-md-4">
+            <div class="header-login-register">
+              <ul class="login">
+                <li>
+                  <a href="#"><i class="fa fa-key"></i>Login</a>
+                  <div class="login-form">
+                    <h4>Login</h4>
+                    <form action="#" method="post">
+                      <div class="form-box">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="user-name" placeholder="Username" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="user-password" placeholder="Password" />
+                      </div>
+                      <div class="button-box">
+                        <button type="submit" class="login-btn">Login</button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+              <ul class="register">
+                <li>
+                  <a href="#"><i class="fa fa-lock"></i>Sign Up</a>
+                  <div class="register-form">
+                    <h4>Sign Up</h4>
+                    <span>Please sign up using account detail bellow.</span>
+                    <form action="#" method="post">
+                      <div class="form-box">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="user-name" placeholder="Username" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="user-password" placeholder="Password" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" name="user-email" placeholder="Email" />
+                      </div>
+                      <div class="button-box">
+                        <input checked data-toggle="toggle" type="checkbox" />
+                        <span>Remember me</span>
+                        <button type="submit" class="register-btn">
+                          Register
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------ -->
+    <div class="col-md-12 text-blue text-center">
+      <h2>
+        <span style="color:#0b0a0a;font-size:25px;font-family: sans-serif; ">Web Point</span><br>
+        <span style="color:#0f0e0e;font-size:25px;font-family: sans-serif;">ওয়েব পয়েন্ট লিমিটেড</span>
+      </h2>
+    </div>
+    <!--Logo Mainmenu Start-->
+    <div class="header-logo-menu sticker">
+      <div class="container">
+        <div class="logo-menu-bg">
+          <div class="row">
+            <div class="col-lg-3 col-md-12">
+              <div class="logo">
+                <a href="index.html"><img src="img/logo/logo.png" alt="logo" /></a>
+              </div>
+            </div>
+            <div class="col-lg-9 d-none d-lg-block">
+              <div class="mainmenu-area">
+                <div class="mainmenu">
+                  <nav>
+                    <ul id="nav">
+                      <li><a href="index.html">Home</a></li>
+                      <li class="current">
+                        <a href="index.html">Institute <i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="#">About Institute <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="about.html">Introduction </a></li>
+                              <li><a href="GoverningBody.html">Governing Body</a></li>
+                              <li><a href="Founder.html">Founder & Donor</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Admistration Message <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="Principalmessage.html">Principal Message </a></li>
+                              <li><a href="Presidentmessage.html">President Message</a></li>
+                             
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Infrastructure <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="building.html">Building & Room </a></li>
+                              <li><a href="library.html">library</a></li>
+                              <li><a href="Transport.html">Transport Management</a></li>
+                              <li><a href="Principalmessage.html"> Hostel </a></li>
+                              <li><a href="Principalmessage.html">Land Information </a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Academics <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="Classroutine.html">Class- Routine </a></li>
+                              <li><a href="Dairy.html">Diray Management</a></li>
+                              <li><a href="AccademicCalender.html">Academic Claender</a></li>
+                              <li><a href="Syllabus.html">Syllabus</a></li>
+                              <li><a href="Performance.html"> Performance </a></li>
+                              
+                            </ul>
+                          </li>                      
+                          <li>
+                            <a href="index-5.html">Digital Campus<i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+                              <li><a href="multimedia.html">Multimedia Class Room </a></li>
+                              <li><a href="ComputerLab.html">Computer Lab</a></li>
+                              <li><a href="Science.html">Science</a></li>                                                            
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a href="#">Team <i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li><a href="ManagingComt.html"> Managing Committee </a></li>
+                          <li><a href="teacher.html"> Teachers </a></li>
+                          <li>
+                            <a href="Staff.html">Staff</a>
+                          </li>
+                          <li>
+                            <a href="WAPC.html"> Women Abuse Prevention Committee </a>
+                          </li>
+                          <li>
+                            <a href="Tswt.html"> Teacher & Staff Welfare Trust </a>
+                          </li>
+                          <li>
+                            <a href="TCI.html"> Teachers Council Information </a>
+                          </li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="teacher.html">Result<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="Internalresult.html">Internal Result</a>
+                          </li>
+                          <li>
+                            <a href="PublicResult.html">Public Examination</a>
+                          </li>
+                          <li>
+                            <a href="onlineAdmission.html">Online Admission</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li>
+                        <a href="index.html">News & Notice<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li><a href="#">Notice & News</a></li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Information<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="SportsCulturalActivities.html"> Sports & Cultural Program </a>
+                          </li>
+                          <li>
+                            <a href="centerInformation.html"> Center Information </a>
+                          </li>
+                          <li>
+                            <a href="Scholor.html"> Scholarship Info </a>
+                          </li>
+                          <li>
+                            <a href="Bncc.html"> BNCC </a>
+                          </li>
+                          <li>
+                            <a href="Rover.html"> Rover Scout </a>
+                          </li>
+                          <li>
+                            <a href="tander.html"> Tender </a>
+                          </li>
+                          <li>
+                            <a href="Privacy.html"> Privacy Policy </a>
+                          </li>
+
+
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <ul class="header-search">
+                  <li class="search-menu">
+                    <i id="toggle-search" class="fa fa-search"></i>
+                  </li>
+                </ul>
+                <!--Search Form-->
+                <div class="search">
+                  <div class="search-form">
+                    <form id="search-form" action="#">
+                      <input type="search" placeholder="Search here..." name="search" />
+                      <button type="submit">
+                        <span><i class="fa fa-search"></i></span>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <!--End of Search Form-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of Logo Mainmenu-->
+    <!-- Mobile Menu Area start -->
+    <div class="mobile-menu-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="mobile-menu">
+              <nav id="dropdown">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li>
+                    <a href="index.html">Institute </a>
+                    <ul>
+                      <li><a href="index-2.html">About Institute</a>
+                        <ul class="subdrop">
+                          <li class="bg-primary"><a href="#">Introduction</a></li>
+                          <li class="bg-success"><a href="#">Governing Body</a></li>
+                          <li class="bg-primary"><a href="#">Founder & Donor</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="index-3.html">Admistration Message</a></li>
+                      <li><a href="index-4.html">Infrastructure</a></li>
+                      <li><a href="index-5.html">Academics</a></li>
+                      <li><a href="index-5.html">Digital Campus</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="class-grid.html">Team</a>
+                    <ul>
+                      <li><a href="class-grid.html">Managing Committee</a></li>
+                      <li><a href="class-list.html">Teachers</a></li>
+                      <li><a href="class-details.html">Staff</a></li>
+                      <li><a href="class-details.html">Women Abuse Prevention Committee</a></li>
+                      <li><a href="class-details.html">Teacher & Staff Welfare Trust</a></li>
+                      <li><a href="class-details.html">Teachers Council Information</a></li>
+
+
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="teacher.html">Result</a>
+                    <ul>
+                      <li><a href="teacher-info.html">Internal Result</a></li>
+                      <li><a href="teacher-info.html">Public Examination</a></li>
+                      <li><a href="teacher-info.html">Online Admission</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li>
+                    <a href="#.html">News & Notice</a>
+                    <ul>
+                      <li><a href="#.html">Notice & News</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="class-grid.html">Information</a>
+                    <ul>
+                      <li><a href="class-grid.html">Sports & Cultural Program </a></li>
+                      <li><a href="class-list.html">Center Information</a></li>
+                      <li><a href="class-details.html"> Scholarship Info</a></li>
+                      <li><a href="class-details.html">BNCC </a></li>
+                      <li><a href="class-details.html">Rover Scout</a></li>
+                      <li><a href="class-details.html">Tender</a></li>
+                      <li> <a href="blog-details.html"> Privacy Policy </a> </li>
+
+                    </ul>
+                  </li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu Area end -->
+
+  </header>
+  <!--End of Header Area-->
+
+
+
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h1>Privacy and Legal</h1>
+
+            <h3>General</h3>
+            <p>Please read these Terms carefully before using this Website. By accessing, browsing, or using this Website, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use. If you do not accept these Terms of Use, do not use the Website. </p>
+    
+            <p>The author may modify all or any part of these Terms of Use, and the products and services mentioned in this Website, at any time, at its sole discretion, without notice to you. You should check back often so you are aware of your current rights and responsibilities. Your continued use of this Website after changes to the Terms of Use have been published constitutes your binding acceptance of the updated Terms of Use. If at any time the Terms of Use are no longer acceptable to you, you should immediately cease all use of this Website.</p>
+                
+            <p>The author reserves the right to seek all remedies available by law and in equity for any violation of these terms and conditions. Any rights not expressly granted herein are reserved.</p>
+    
+            <h3>Trademarks</h3>
+            <p>The trademarks, logos and service marks ("Marks") displayed on this Website are the property of the author or other third parties. You are not permitted to use these Marks without the prior written consent of the author or such third party which may own the Mark.</p>
+    
+            <h3>Copyrights</h3>
+            <p>The information on this Website is protected by copyright, the terms of which must be observed and followed. This site and all content in this site may not be copied, reproduced, republished, uploaded, posted, transmitted, distributed, or used for the creation of derivative works without the author's prior written consent, except that the author grants you non-exclusive, non-transferable, limited permission to access and display the Web pages within this site, solely on your computer and for your personal, non-commercial use of this Website. This permission is conditioned on your not modifying the content displayed on this site, your keeping intact all copyright, trademark, and other proprietary notices, and your acceptance of any terms, conditions, and notices accompanying the content or otherwise set forth in this site. Notwithstanding the foregoing, any software and other materials that are made available for downloading, access, or other use from this site with their own license terms, conditions, and notices will be governed by such terms, conditions, and notices.</p>
+    
+            <p>Your failure to comply with the terms, conditions, and notices on this site will result in automatic termination of any rights granted to you, without prior notice, and you must immediately destroy all copies of downloaded materials in your possession or control. Except for the limited permission in the preceding paragraph, the author does not grant you any express or implied rights or licenses under any patents, trademarks, copyrights, or other proprietary or intellectual property rights. You may not mirror any of the content from this site on another website or in any other media.</p>
+    
+            <h3>Certain disclaimers</h3>
+            <p>Information on this Website is not promised or guaranteed to be correct, current, or complete, and this site may contain technical inaccuracies or typographical errors. The author assumes no responsibility (and expressly disclaims responsibility) for updating this site to keep information current or to ensure the accuracy or completeness of any posted information. Accordingly, you should confirm the accuracy and completeness of all posted information before making any decision related to any services, products, or other matters described in this site.</p>
+    
+            <p>The author provides no assurances that any reported problems will be resolved by the author, even if the author elects to provide information with the goal of addressing a problem.</p>
+    
+            <h3>Confidential information</h3>
+            <p>The author does not want to receive confidential or proprietary information from you through our Website. Please note that any information or material sent to the author will be deemed NOT to be confidential. By sending the author any information or material, you grant the author an unrestricted, irrevocable license to copy, reproduce, publish, upload, post, transmit, distribute, publicly display, perform, modify, create derivative works from, and otherwise freely use, those materials or information. You also agree that the author is free to use any ideas, concepts, know-how, or techniques that you send us for any purpose. However, we will not release your name or otherwise publicize the fact that you submitted materials or other information to us unless: (a) we obtain your permission to use your name; or (b) we first notify you that the materials or other information you submit to a particular part of this site will be published or otherwise used with your name on it; or (c) we are required to do so by law. Personally-identifiable information that you submit to the author for the purpose of receiving products or services will be handled in accordance with our privacy policies. Please see the section of this Website entitled "Privacy" for information regarding the author's privacy policies.</p>
+    
+            <h3>Global availability</h3>
+            <p>Information the author publishes on the World Wide Web may contain references or cross references to the author's products, programmes and services that are not announced or available in your country. Such references do not imply that the author intends to announce or make available such products or services in your country.</p>
+    
+            <h3>Linking to this site</h3>
+            <p>The author permits anyone to link to this Website subject to the linker's compliance with the following terms and conditions: A site that links to the author's:</p>
+    
+            <ul>
+                <li>May link to, but not replicate, content contained in the author's site;</li>
+                <li>Must not create a border environment or browser around content contained in the author's site;</li>
+                <li>Must not present misleading or false information about the author's services or products;</li>
+                <li>Must not misrepresent the author's relationship with the linker;</li>
+                <li>Must not imply that the author is endorsing or sponsoring the linker or the linker's services or products;</li>
+                <li>Must not use the author's logos or trademarks without prior written permission from the author;</li>
+                <li>Must not contain content that could be construed as obscene, libelous, defamatory, pornographic, or inappropriate;</li>
+                <li>Must not contain materials that would violate any laws;</li>
+                <li>Must agree that the link may be removed at any time upon the author's request pursuant to the author's reserved rights to rescind its consent to allow the link.</li>
+            </ul>
+    
+            <h3>Third-party websites</h3>
+            <p>The author's Website provides links to third-party websites, which are not under the control of the author. The author makes no representations about third-party websites. When you access a non-the author website, you do so at your own risk. the author is not responsible for the reliability of any data, opinions, advice, or statements made on third-party sites. the author provides these links merely as a convenience. The inclusion of such links does not imply that the author endorses, recommends, or accepts any responsibility for the content of such sites.</p>
+    
+            <h3>Third-party products and services</h3>
+            <p>The author Website contains mention of third-party products and services for informational purposes. the author makes no recommendations or endorsements about third-party products and services. References to third-party services and products are provided by the author "as is", without warranty of any kind, either express or implied.</p>
+    
+            <h3>Collection and use of technical information</h3>
+            <p>Technical details in connection with visits to this Website are logged by for our statistical purposes. No information is collected that could be used by us to identify website visitors. The technical details logged are confined to the following items:</p>
+    
+            <ul>
+                <li>the IP address of the visitor's web server</li>
+                <li>the top-level domain name used (for example .ie, .com, .org, .net)</li>
+                <li>the previous website address from which the visitor reached us, including any search terms used</li>
+                <li>clickstream data which shows the traffic of visitors around this web site (for example pages accessed and documents downloaded)</li>
+                <li>the type of web browser used by the Website visitor.</li>
+            </ul>
+    
+            <p>The author will make no attempt to identify individual visitors, or to associate the technical details listed above with any individual. It is the policy of the author never to disclose such technical information in respect of individual Website visitors to any third party other than the web statistics service provider unless obliged to disclose such information by a rule of law. The technical information will be used only by the author, and only for statistical and other administrative purposes. You should note that technical details, which we cannot associate with any identifiable individual, do not constitute "personal data" for the purposes of the Data Protection Acts, 1988 &amp; 2003.</p>
+    
+            <h3>Use of cookies</h3>
+            <p>This Website uses cookies to enhance the users' experience. Cookies are small text files that are placed on your computer by websites that you visit. They are widely used in order to make websites work, or work more efficiently, as well as to provide information to the owners of the site.</p>
+    
+            <p>The cookies listed below are used to collect information about how visitors use this Website. This information is used to compile reports and to help us improve the Website.</p>
+                
+            <p>_utma, _utmb, _utmc and _utmz</p>
+    
+            <p>The above cookies collect information in an anonymous form, including the number of visitors to the site, where visitors have come to the site from and the pages they visited. <a href="http://www.google.co.uk/intl/en/analytics/privacyoverview.html" target="_blank" class="fancy-link">Click here for an overview of privacy at Google</a>. To opt out of being tracked by Google Analytics across all websites visit <a target="_blank" href="http://tools.google.com/dlpage/gaoptout" class="fancy-link">http://tools.google.com/dlpage/gaoptout</a>.</p>
+    
+            <p>By law web browsers allow control of cookie usage through the browser settings. To find out more about cookies, including how to see what cookies have been set and how to manage and delete them, visit <a href="http://www.allaboutcookies.org" target="_blank" class="fancy-link">http://www.allaboutcookies.org</a></p>
+    
+            <h3>Jurisdiction</h3>
+    
+            <p>This agreement and all claims relating to the relationship between the parties are governed by the laws of Ireland without regard to choice of law provisions.</p>
+    
+            <p>If one or more of the provisions contained in this Agreement is held invalid, illegal or unenforceable in any respect by any court of competent jurisdiction, such holding will not impair the validity, legality, or enforceability of the remaining provisions.</p>
+    
+            <h3>DISCLAIMER OF WARRANTY</h3>
+            <p>USE OF THIS SITE IS AT YOUR SOLE RISK. ALL MATERIALS, INFORMATION, PRODUCTS, SOFTWARE, PROGRAMS, AND SERVICES ARE PROVIDED "AS IS," WITH NO WARRANTIES OR GUARANTEES WHATSOEVER. THE AUTHOR EXPRESSLY DISCLAIMS TO THE FULLEST EXTENT PERMITTED BY LAW ALL EXPRESS, IMPLIED, STATUTORY, AND OTHER WARRANTIES, GUARANTEES, OR REPRESENTATIONS, INCLUDING, WITHOUT LIMITATION, THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF PROPRIETARY AND INTELLECTUAL PROPERTY RIGHTS. WITHOUT LIMITATION, THE AUTHOR MAKES NO WARRANTY OR GUARANTEE THAT THIS WEBSITE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE.</p>
+    
+            <p>YOU UNDERSTAND AND AGREE THAT IF YOU DOWNLOAD OR OTHERWISE OBTAIN MATERIALS, INFORMATION, PRODUCTS, SOFTWARE, PROGRAMS, OR SERVICES, YOU DO SO AT YOUR OWN DISCRETION AND RISK AND THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGES THAT MAY RESULT, INCLUDING LOSS OF DATA OR DAMAGE TO YOUR COMPUTER SYSTEM.</p>
+    
+            <p>SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF WARRANTIES, SO THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU.</p>
+    
+            <h3>LIMITATION OF LIABILITY</h3>
+            <p>IN NO EVENT WILL the author BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES OF ANY TYPE WHATSOEVER RELATED TO OR ARISING FROM THIS WEBSITE ANY USE OF THIS WEBSITE OR OF ANY SITE OR RESOURCE LINKED TO, REFERENCED, OR ACCESSED THROUGH THIS WEBSITE, OR FOR THE USE OR DOWNLOADING OF, OR ACCESS TO, ANY MATERIALS, INFORMATION, PRODUCTS, OR SERVICES, INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, BUSINESS INTERRUPTION, LOST SAVINGS OR LOSS OF PROGRAMS OR OTHER DATA, EVEN IF the author IS EXPRESSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THIS EXCLUSION AND WAIVER OF LIABILITY APPLIES TO ALL CAUSES OF ACTION, WHETHER BASED ON CONTRACT, WARRANTY, TORT, OR ANY OTHER LEGAL THEORIES.</p>
+    
+            <p>Additional or different terms, conditions, and notices may apply to specific materials, information, products, software, and services offered through this website. In the event of any conflict, such additional or different terms, conditions, and notices will prevail over these Terms of Use. Please see the applicable agreement or notice.</p>
+    
+
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <!--Footer Area Start-->
+  <div class="footer-area">
+    <div class="container">
+      <div class="footer-widget-container section-padding ">
+        <div class="row">
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget">
+              <img src="img/logo/logo.png" alt="">
+              <ul class="footer-widget-list ">
+                <p>WP-IMS is a latest technology of educational institute’s digitization. This is the fastest and most
+                  intelligent application ever made in Bangladesh.</p>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget ">
+              <h4>Links</h4>
+              <ul class="footer-widget-list ">
+                <li><a href="#"> Dhaka Education Board</a></li>
+                <li><a href="#"> Ministry of Education</a></li>
+                <li><a href="#"> National University</a></li>
+                <li><a href="#"> 10 minute school</a></li>
+                <li><a href="#"> Khan Academy</a></li>
+                <li><a href="#">শিক্ষক বাতায়ন</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget">
+              <h4>Contact Us</h4>
+              <ul class="footer-widget-list fwl">
+
+                <li class="list-inline-item"><a class="iconbox   mr-3  mt-2" href="#" target="_blank"><i
+                      class="fa fa-phone  " aria-hidden="true" style=" color: #f9f9f9;font-size: 16px; "></i> </a><a
+                    href="tel:+8801875004610">+8801875004610</a>
+                </li>
+                <li class="list-inline-item"><a class="iconbox   mr-3  mt-2" href="#" target="_blank"><i
+                      class="fa fa-envelope  " aria-hidden="true" style=" color: #ffffff;font-size: 16px; "></i></a> <a
+                    href="">info@webpointbd.com</a> </li>
+
+                <li>
+                  <div class="media">
+                    <a class="iconbox   mr-3  mt-3" href="#" target="_blank"><i class="fa fa-map-marker   "
+                        aria-hidden="true" style=" color: #ffffff;font-size: 16px; "></i></a>
+                    <div class="media-body">
+                      <a href="#" style="line-height: normal;">Hoque Mansion(1st Floor),Arakan Road, Badurtola,
+                        Panchlaish,Chattogram</a>
+                    </div>
+                  </div>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 footerCopyRight ">
+          <div class="footer-container">
+            <div class="row">
+              <div class="col-lg-6 ">
+                <span>&copy;
+                  <a href="#"> 2023 WebPointLtd. All rights reserved. Created by Web Point Ltd.</a>
+                </span>
+              </div>
+              <div class="col-lg-6">
+                <div class="social-links">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Footer Area-->
+  <!-- <div class="footerCopyRight">
+   
+</div> -->
+
+  <!-- jquery
+		============================================ -->
+  <script src="js/vendor/jquery-1.12.3.min.js"></script>
+
+  <!-- Popper JS
+		============================================ -->
+  <script src="js/popper.js"></script>
+
+  <!-- bootstrap JS
+		============================================ -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- bootstrap Toggle JS
+		============================================ -->
+  <script src="js/bootstrap-toggle.min.js"></script>
+
+  <!-- nivo slider js
+		============================================ -->
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js"></script>
+  <script src="lib/nivo-slider/home.js"></script>
+
+  <!-- wow JS
+		============================================ -->
+  <script src="js/wow.min.js"></script>
+
+  <!-- meanmenu JS
+		============================================ -->
+  <script src="js/jquery.meanmenu.js"></script>
+
+  <!-- Owl carousel JS
+		============================================ -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!-- Countdown JS
+		============================================ -->
+  <script src="js/jquery.countdown.min.js"></script>
+
+  <!-- scrollUp JS
+		============================================ -->
+  <script src="js/jquery.scrollUp.min.js"></script>
+
+  <!-- Waypoints JS
+		============================================ -->
+  <script src="js/waypoints.min.js"></script>
+
+  <!-- Counterup JS
+		============================================ -->
+  <script src="js/jquery.counterup.min.js"></script>
+
+  <!-- Slick JS
+		============================================ -->
+  <script src="js/slick.min.js"></script>
+
+  <!-- Mix It Up JS
+		============================================ -->
+  <script src="js/jquery.mixitup.js"></script>
+
+  <!-- Venubox JS
+		============================================ -->
+  <script src="js/venobox.min.js"></script>
+
+  <!-- plugins JS
+		============================================ -->
+  <script src="js/plugins.js"></script>
+
+
+  <!-- main JS
+		============================================ -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

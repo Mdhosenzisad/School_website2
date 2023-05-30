@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>School Website</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- favicon
+		============================================ -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon1.ico" />
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-M4A4P4GJEr5d5z0ey7VrZ+P5AS6PcJ6/LFWU/OL0y6aKH+7BTgrgK8Jb7H+YGtlm" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pKzuVY3q1QDfV5d5a5n5nMf5fy6zXUi6U68OWfuUuYwOhGgy6Uk/7xZvg0Wwn1zS" crossorigin="anonymous">
+  </script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/venobox/venobox/venobox.min.css" type="text/css"
+    media="screen" />
+  <script src="https://cdn.jsdelivr.net/npm/venobox/venobox/venobox.min.js"></script>
+
+
+  <!-- Google Fonts
+		============================================ -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700" rel="stylesheet" type="text/css" />
+
+  <!-- Style CSS
+		============================================ -->
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://www.vnsc.edu.bd/frontend/vnsc/js/venobox.min.js"></script>
+
+  <!-- Modernizr JS
+		============================================ -->
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+  <!--Header Area Start-->
+  <header>
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-8">
+            <div class="header-top-info">
+              <span>Open hours: 8.00-18.00 Mon-Sat</span>
+              <div class="social-links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </div>
+              <p>EIIN: 4321</p>
+              <p>Institute Code: 1234567</p>
+            </div>
+
+          </div>
+          <div class="col-lg-5 col-md-4">
+            <div class="header-login-register">
+              <ul class="login">
+                <li>
+                  <a href="#"><i class="fa fa-key"></i>Login</a>
+                  <div class="login-form">
+                    <h4>Login</h4>
+                    <form action="#" method="post">
+                      <div class="form-box">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="user-name" placeholder="Username" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="user-password" placeholder="Password" />
+                      </div>
+                      <div class="button-box">
+                        <button type="submit" class="login-btn">Login</button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+              <ul class="register">
+                <li>
+                  <a href="#"><i class="fa fa-lock"></i>Sign Up</a>
+                  <div class="register-form">
+                    <h4>Sign Up</h4>
+                    <span>Please sign up using account detail bellow.</span>
+                    <form action="#" method="post">
+                      <div class="form-box">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="user-name" placeholder="Username" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="user-password" placeholder="Password" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" name="user-email" placeholder="Email" />
+                      </div>
+                      <div class="button-box">
+                        <input checked data-toggle="toggle" type="checkbox" />
+                        <span>Remember me</span>
+                        <button type="submit" class="register-btn">
+                          Register
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------ -->
+    <div class="col-md-12 text-blue text-center">
+      <h2>
+        <span style="color:#0b0a0a;font-size:25px;font-family: sans-serif; ">Web Point</span><br>
+        <span style="color:#0f0e0e;font-size:25px;font-family: sans-serif;">ওয়েব পয়েন্ট লিমিটেড</span>
+      </h2>
+    </div>
+    <!--Logo Mainmenu Start-->
+    <div class="header-logo-menu sticker">
+      <div class="container">
+        <div class="logo-menu-bg">
+          <div class="row">
+            <div class="col-lg-3 col-md-12">
+              <div class="logo">
+                <a href="index.html"><img src="img/logo/logo.png" alt="logo" /></a>
+              </div>
+            </div>
+            <div class="col-lg-9 d-none d-lg-block">
+              <div class="mainmenu-area">
+                <div class="mainmenu">
+                  <nav>
+                    <ul id="nav">
+                      <li><a href="index.html">Home</a></li>
+                      <li class="current">
+                        <a href="index.html">Institute <i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="#">About Institute <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="about.html">Introduction </a></li>
+                              <li><a href="GoverningBody.html">Governing Body</a></li>
+                              <li><a href="Founder.html">Founder & Donor</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Admistration Message <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="Principalmessage.html">Principal Message </a></li>
+                              <li><a href="Presidentmessage.html">President Message</a></li>
+                             
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Infrastructure <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="building.html">Building & Room </a></li>
+                              <li><a href="library.html">library</a></li>
+                              <li><a href="Transport.html">Transport Management</a></li>
+                              <li><a href="Principalmessage.html"> Hostel </a></li>
+                              <li><a href="Principalmessage.html">Land Information </a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Academics <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="Classroutine.html">Class- Routine </a></li>
+                              <li><a href="Dairy.html">Diray Management</a></li>
+                              <li><a href="AccademicCalender.html">Academic Claender</a></li>
+                              <li><a href="Syllabus.html">Syllabus</a></li>
+                              <li><a href="Performance.html"> Performance </a></li>
+                              
+                            </ul>
+                          </li>                      
+                          <li>
+                            <a href="index-5.html">Digital Campus<i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+                              <li><a href="multimedia.html">Multimedia Class Room </a></li>
+                              <li><a href="ComputerLab.html">Computer Lab</a></li>
+                              <li><a href="Science.html">Science</a></li>                                                            
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a href="#">Team <i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li><a href="ManagingComt.html"> Managing Committee </a></li>
+                          <li><a href="teacher.html"> Teachers </a></li>
+                          <li>
+                            <a href="Staff.html">Staff</a>
+                          </li>
+                          <li>
+                            <a href="WAPC.html"> Women Abuse Prevention Committee </a>
+                          </li>
+                          <li>
+                            <a href="Tswt.html"> Teacher & Staff Welfare Trust </a>
+                          </li>
+                          <li>
+                            <a href="TCI.html"> Teachers Council Information </a>
+                          </li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="teacher.html">Result<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="Internalresult.html">Internal Result</a>
+                          </li>
+                          <li>
+                            <a href="PublicResult.html">Public Examination</a>
+                          </li>
+                          <li>
+                            <a href="onlineAdmission.html">Online Admission</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li>
+                        <a href="index.html">News & Notice<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li><a href="news.html">Notice & News</a></li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Information<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="SportsCulturalActivities.html"> Sports & Cultural Program </a>
+                          </li>
+                          <li>
+                            <a href="centerInformation.html"> Center Information </a>
+                          </li>
+                          <li>
+                            <a href="Scholor.html"> Scholarship Info </a>
+                          </li>
+                          <li>
+                            <a href="Bncc.html"> BNCC </a>
+                          </li>
+                          <li>
+                            <a href="Rover.html"> Rover Scout </a>
+                          </li>
+                          <li>
+                            <a href="tander.html"> Tender </a>
+                          </li>
+                          <li>
+                            <a href="Privacy.html"> Privacy Policy </a>
+                          </li>
+
+
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <ul class="header-search">
+                  <li class="search-menu">
+                    <i id="toggle-search" class="fa fa-search"></i>
+                  </li>
+                </ul>
+                <!--Search Form-->
+                <div class="search">
+                  <div class="search-form">
+                    <form id="search-form" action="#">
+                      <input type="search" placeholder="Search here..." name="search" />
+                      <button type="submit">
+                        <span><i class="fa fa-search"></i></span>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <!--End of Search Form-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of Logo Mainmenu-->
+    <!-- Mobile Menu Area start -->
+    <div class="mobile-menu-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="mobile-menu">
+              <nav id="dropdown">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li>
+                    <a href="index.html">Institute </a>
+                    <ul>
+                      <li><a href="index-2.html">About Institute</a>
+                        <ul class="subdrop">
+                          <li class="bg-primary"><a href="#">Introduction</a></li>
+                          <li class="bg-success"><a href="#">Governing Body</a></li>
+                          <li class="bg-primary"><a href="#">Founder & Donor</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="index-3.html">Admistration Message</a></li>
+                      <li><a href="index-4.html">Infrastructure</a></li>
+                      <li><a href="index-5.html">Academics</a></li>
+                      <li><a href="index-5.html">Digital Campus</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="class-grid.html">Team</a>
+                    <ul>
+                      <li><a href="class-grid.html">Managing Committee</a></li>
+                      <li><a href="class-list.html">Teachers</a></li>
+                      <li><a href="class-details.html">Staff</a></li>
+                      <li><a href="class-details.html">Women Abuse Prevention Committee</a></li>
+                      <li><a href="class-details.html">Teacher & Staff Welfare Trust</a></li>
+                      <li><a href="class-details.html">Teachers Council Information</a></li>
+
+
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="teacher.html">Result</a>
+                    <ul>
+                      <li><a href="teacher-info.html">Internal Result</a></li>
+                      <li><a href="teacher-info.html">Public Examination</a></li>
+                      <li><a href="teacher-info.html">Online Admission</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li>
+                    <a href="#.html">News & Notice</a>
+                    <ul>
+                      <li><a href="#.html">Notice & News</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="class-grid.html">Information</a>
+                    <ul>
+                      <li><a href="class-grid.html">Sports & Cultural Program </a></li>
+                      <li><a href="class-list.html">Center Information</a></li>
+                      <li><a href="class-details.html"> Scholarship Info</a></li>
+                      <li><a href="class-details.html">BNCC </a></li>
+                      <li><a href="class-details.html">Rover Scout</a></li>
+                      <li><a href="class-details.html">Tender</a></li>
+                      <li> <a href="blog-details.html"> Privacy Policy </a> </li>
+
+                    </ul>
+                  </li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu Area end -->
+
+  </header>
+  <!--End of Header Area-->
+  <!-- slider -->
+  <div class="banner-slider">
+    <div class="container">
+      <div class="news-block d-flex flex-wrap flex-md-nowrap align-items-center">
+        <div class="info d-flex align-items-center">
+          <div class="title"> News </div>
+          <div class="message">
+            <marquee style="display: flex; height: 25px;">
+              <ul class="msg-items d-flex align-items-center">
+                <li> Welcome to Web Point Limted.“Our stories hold unique inspiration for one another.”</li>
+              </ul>
+            </marquee>
+          </div>
+        </div>
+      </div>
+      <!--Slider Area Start-->
+      <div class="slider-area slider-two-area">
+        <div class="preview-2">
+          <div id="nivoslider" class="slides">
+            <img src="img/slider/3.jpg" alt="" title="#slider-1-caption1" />
+            <img src="img/slider/4.jpg" alt="" title="#slider-1-caption2" />
+          </div>
+          <div id="slider-1-caption1" class="nivo-html-caption nivo-caption">
+            <div class="banner-content slider-2">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-7 col-md-7">
+                    <div class="text-content hidden-xs">
+                      <p class="sub-title">Your Child can be a genius</p>
+                      <h1 class="title1">Fun &amp; Learning</h1>
+                      <div class="banner-readmore">
+                        <a title="Read more" href="#">Enroll your child</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="slider-1-caption2" class="nivo-html-caption nivo-caption">
+            <div class="banner-content slider-2 slider-right">
+              <div class="container">
+                <div class="row">
+                  <div class="ml-auto col-lg-7 col-md-7">
+                    <div class="text-content hidden-xs">
+                      <p class="sub-title">Your Child can be a genius</p>
+                      <h1 class="title1">Fun &amp; Learning</h1>
+                      <div class="banner-readmore">
+                        <a title="Read more" href="#">Enroll your child</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End  Slider Area-->
+
+    </div>
+  </div>
+  <!--End of Slider Area-->
+  <!--Activity Area Start-->
+  <div class="activity-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6 activity">
+          <div class="single-activity">
+            <div class="single-activity-icon">
+              <i class="fa fa-pencil"></i>
+            </div>
+            <h4>Result</h4>
+            <!-- <p>
+              It is a long established fact that a reader will be distracted
+              by the readable content of a page looking at layout
+            </p> -->
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 activity">
+          <div class="single-activity">
+            <div class="single-activity-icon">
+              <i class="fa fa-book"></i>
+            </div>
+            <h4>Dairy</h4>
+            <!-- <p>
+              Fusce pretium, est at aliquam semper, leo ante facilisis risus
+              in feugiat ipsum augue pellent esque metu.
+            </p> -->
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 activity">
+          <div class="single-activity">
+            <div class="single-activity-icon">
+              <i class="fa fa-fort-awesome"></i>
+            </div>
+            <h4>Online Admission</h4>
+            <!-- <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's
+            </p> -->
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 activity">
+          <div class="single-activity">
+            <div class="single-activity-icon">
+              <i class="fa fa-list-alt" aria-hidden="true"></i>
+            </div>
+            <h4>Syllabus</h4>
+            <!-- <p>
+              It was popularised in the 1960s with the release of Letraset
+              sheets release containing Lorem Ipsum passages
+            </p> -->
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 activity">
+          <div class="single-activity">
+            <div class="single-activity-icon">
+              <i class="fa fa-tasks" aria-hidden="true"></i>
+            </div>
+            <h4>Class Routine</h4>
+            <!-- <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's
+            </p> -->
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 activity">
+          <div class="single-activity">
+            <div class="single-activity-icon">
+              <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </div>
+            <h4>Video Gallery</h4>
+            <!-- <p>
+              Fusce pretium, est at aliquam semper, leo ante facilisis risus
+              in feugiat ipsum augue pellent esque metu.
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Activity Area-->
+
+
+  <!--Skill information Area Start-->
+  <div class="skill-information-area section-gray section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="about-skill-text">
+            <h2 class="text-wrap   text-info">Welcome to Web Point Limited </h2>
+            <span>Fable daycare, preschool, and kindergarten</span>
+            <p>
+              Come with us, we also teach children about the basic values of
+              human beings as honesty, kindness, generosity, courage, freedom,
+              equality and respect. Learn to celebrate diversity in a spirit
+              of understanding and tolerance and develop a positive regard and
+              awareness of other people. They are taught the values and
+              responsibilities needed to become active members of the
+              community, something which the modern world is desperate for.
+            </p>
+            <a href="#" class="button-default button-yellow">View More</a>
+          </div>
+
+          <div class="skill-bars">
+            <div class="orange">
+              <div class="skill-bar-item">
+                <span>Science</span>
+                <div class="progress">
+                  <div class="progress-bar wow fadeInLeft" data-progress="80%" style="width: 80%;"
+                    data-wow-duration="1.5s" data-wow-delay="1.2s">
+                    <span class="text-top">80%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lemon">
+              <div class="skill-bar-item">
+                <span>Arts </span>
+                <div class="progress">
+                  <div class="progress-bar wow fadeInLeft" data-progress="75%" style="width: 75%;"
+                    data-wow-duration="1.5s" data-wow-delay="1.2s">
+                    <span class="text-top">75%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sea-green">
+              <div class="skill-bar-item no-margin">
+                <span>Commerce</span>
+                <div class="progress no-margin">
+                  <div class="progress-bar wow fadeInLeft" data-progress="90%" style="width: 90%;"
+                    data-wow-duration="1.5s" data-wow-delay="1.2s">
+                    <span class="text-top">90%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="skill-image">
+            <img src="img/banner/7.png" alt="" />
+          </div>
+        </div>
+
+        <div class=" welcome-notice col-lg-2 col-md-6 py-2">
+          <div class="item">
+            <div class="notice-board">
+              <div style="height: 350px; overflow: hidden;">
+                <div class="title text-center"> Notice Board </div>
+                <marquee onmouseover="this.stop();" onmouseout="this.start();" behavior="scroll" scrollamount="3"
+                  direction="up" style="height: 100%; background-color: rgb(178, 223, 111);">
+                  <ul class="notice-items">
+                    <li style="cursor: pointer;">
+                      <p style="cursor: pointer;">
+                        <!----><a style="cursor: pointer;">SCHOLARSHIP CLASS 5-2022</a></p>
+                      <div class="date"><i class="fa fa-calendar"></i>
+                        01-03-23 </div>
+                    </li>
+                    <!---->
+                    <li style="cursor: pointer;">
+                      <p style="cursor: pointer;">
+                        <!----><a style="cursor: pointer;">এইচএসসি ২০২২ পরীক্ষার ফলাফল।</a></p>
+                      <div class="date"><i class="fa fa-calendar"></i>
+                        08-02-23 </div>
+                    </li>
+                    <!---->
+                    <li style="cursor: pointer;">
+                      <p style="cursor: pointer;">
+                        <!----><a style="cursor: pointer;">২০২২-২০২৩ শিক্ষাবর্ষে একাদশ শ্রেণির
+                          ভর্তি নির্দেশিকা ভর্তি কার্যক্রম চলবে ২২ - ২৬ জানুয়ারি ২০২৩। সকাল ৯:০০ টা থেকে দুপুর ২:০০ টা।
+                          যোগাযোগঃ ০১৮১৭৫৬২২১৫</a></p>
+                      <div class="date"><i class="fa fa-calendar"></i>
+                        15-01-23 </div>
+                    </li>
+                    <!---->
+                    <li style="cursor: pointer;">
+                      <p style="cursor: pointer;">
+                        <!----><a style="cursor: pointer;"> ২০২৩ শিক্ষাবর্ষের ভর্তি পরীক্ষার
+                          ফলাফল।</a></p>
+                      <div class="date"><i class="fa fa-calendar"></i>
+                        03-01-23 </div>
+                    </li>
+                    <!---->
+                    <!---->
+                  </ul>
+                </marquee>
+              </div>
+              <div class="load-more text-right"><a href="#" class="button-default button-yellow">View More</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Skill information Area-->
+
+  <!-- Start of message -->
+  <div class="members-messages">
+    <div class="container">
+      <div class="title">
+        <h2>Message</h2>
+      </div>
+      <div class="row">
+        <div class="py-2 py-md-4 col-lg-6">
+          <div class="member d-flex">
+            <div class="thumb rounded overflow-hidden"><img alt="Chairman" class="img-fluid" src="img/teacher/5.jpg">
+            </div>
+            <div class="info">
+              <div class="designation"> Chairman Message <span></span></div>
+              <div class="name">কমান্ডার মাহবুব আহমদ শাহজালাল, (শিক্ষা), বিএন </div>
+              <p style="max-height: 210px; overflow: hidden;">
+                <div style=" margin: 5px;">
+                  <font face="tahoma, arial, verdana, sans-serif">বিসমিল্লাহির রাহমানির রাহিম।</font>
+                </div>
+                <div style="">
+                  <font face="tahoma, arial, verdana, sans-serif">কাপ্তাই উপজেলায় অবস্থিত বানৌজা শহীদ মোয়াজ্জম ঘাঁটিতে
+                    মনোমুগ্ধকর পরিবেশে গড়ে উঠা বিদ্যাপীঠ বাংলাদেশ নৌবাহিনী স্কুল এন্ড কলেজ কাপ্তাই। প্রতিষ্ঠানটি এই
+                    অঞ্চলের বাসিন্দাদের সামাজিক পরিবর্তনশীলতা, চিন্তা-ভাবনা এবং দৃষ্টিভঙ্গির উন্নয়নে অগ্রণী ভূমিকা পালন
+                    করে আসছে।&nbsp;</font>
+                </div>
+
+              </p>
+              <a style="cursor: pointer;" class="button-default button-yellow">Read More..</a>
+
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="py-2 py-md-4 col-lg-6">
+          <div class="member d-flex">
+            <div class="thumb rounded overflow-hidden"><img alt="Chairman" class="img-fluid" src="img/teacher/6.jpg">
+            </div>
+            <div class="info">
+              <div class="designation"> Principal Message <span></span>
+              </div>
+              <div class="name"> কমান্ডার মাহবুব আহমদ শাহজালাল, (শিক্ষা), বিএন </div>
+              <p style="max-height: 210px; overflow: hidden;">
+                <div style="font-family: Tahoma; margin: 5px;">
+                  <font face="tahoma, arial, verdana, sans-serif">বিসমিল্লাহির রাহমানির রাহিম।</font>
+                </div>
+                <div style="font-family: Tahoma;">
+                  <font face="tahoma, arial, verdana, sans-serif">উন্নত বিশ্বের সাথে পাল্লা দিয়ে বাংলাদেশের পার্বত্য
+                    অঞ্চলের একটি উপজেলা কাপ্তাই-এর অনগ্রসর জনগোষ্ঠীর মাঝে শিক্ষার আলো ছড়িয়ে দিতে কাজ করে যাচ্ছে বাংলাদেশ
+                    নৌবাহিনী পরিচালিত বিএন স্কুল এন্ড কলেজ কাপ্তাই। &nbsp;</font>
+                </div>
+              </p>
+              <a style="cursor: pointer;" class="button-default button-yellow">Read More..</a>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <!-- End of message -->
+  <!-- starts Events -->
+  <div class="events-block">
+    <div class="events-nav">
+      <div class="container">
+        <div class="title">
+          <h2 class="text-dark">Upcoming Events</h2><span></span>
+        </div>
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <!-- --- -->
+        <div class="col  event-col">
+          <div class="card ">
+            <img class="card-img-top" src="img/banner/7.jpg" alt="">
+            <div class="card-body">
+              <h4 class="h5">
+                Halloween Event
+              </h4>
+              <ul class="list-unstyled my-4 line-height-xl " style="font-size: 14px;">
+                <li>
+                  <i class="fa fa-clock-o mr-2 " style="color: blue;"></i>
+                  May 17, 2023 @ 09:20:00
+                </li>
+                <li>
+                  <i class="fa fa-map-marker mr-2 " style=" color: blue; font-size: 17px; padding-left: 1px;"></i>
+                  GEC Convention Hall
+                </li>
+              </ul>
+              <a href="https://demo.webpointbd.com/event/19" class="text-primary">
+                View Details
+                <i class="fa fa-angle-double-right small"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+
+        <div class="col  event-col">
+          <div class="card ">
+            <img class="card-img-top" src="img/banner/7.jpg" alt="">
+            <div class="card-body">
+              <h4 class="h5">
+                Halloween Event
+              </h4>
+              <ul class="list-unstyled my-4 line-height-xl " style="font-size: 14px;">
+                <li>
+                  <i class="fa fa-clock-o mr-2 " style="color: blue;"></i>
+                  May 17, 2023 @ 09:20:00
+                </li>
+                <li>
+                  <i class="fa fa-map-marker mr-2 " style=" color: blue;font-size: 17px; padding-left: 1px;"></i>
+                  GEC Convention Hall
+                </li>
+              </ul>
+              <a href="https://demo.webpointbd.com/event/19" class="text-primary">
+                View Details
+                <i class="fa fa-angle-double-right small"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+
+        <div class="col  event-col">
+          <div class="card ">
+            <img class="card-img-top" src="img/banner/7.jpg" alt="">
+            <div class="card-body">
+              <h4 class="h5">
+                Halloween Event
+              </h4>
+              <ul class="list-unstyled my-4 line-height-xl " style="font-size: 14px;">
+                <li>
+                  <i class="fa fa-clock-o mr-2 " style="color: blue;"></i>
+                  May 17, 2023 @ 09:20:00
+                </li>
+                <li>
+                  <i class="fa fa-map-marker mr-2 " style=" color: blue;font-size: 17px; padding-left: 1px;"></i>
+                  GEC Convention Hall
+                </li>
+              </ul>
+              <a href="https://demo.webpointbd.com/event/19" class="text-primary">
+                View Details
+                <i class="fa fa-angle-double-right small"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="col  event-col">
+          <div class="card ">
+            <img class="card-img-top" src="img/banner/7.jpg" alt="">
+            <div class="card-body">
+              <h4 class="h5">
+                Halloween Event
+              </h4>
+              <ul class="list-unstyled my-4 line-height-xl " style="font-size: 14px;">
+                <li>
+                  <i class="fa fa-clock-o mr-2 " style="color: blue;"></i>
+                  May 17, 2023 @ 09:20:00
+                </li>
+                <li>
+                  <i class="fa fa-map-marker mr-2 " style=" color: blue;font-size: 17px; padding-left: 1px;"></i>
+                  GEC Convention Hall
+                </li>
+              </ul>
+              <a href="https://demo.webpointbd.com/event/19" class="text-primary">
+                View Details
+                <i class="fa fa-angle-double-right small"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- --- -->
+      </div>
+    </div>
+  </div>
+  <!-- Ends Events -->
+  <!--Counting Fun Factor Area Start-->
+  <div class="fun-factor-area fun-factor-two">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+          <div class="single-fun-factor">
+            <div class="fun-factor-icon">
+              <i class="fa fa-users"></i>
+            </div>
+            <h2><span class="counter">25</span></h2>
+            <span>Teacher</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+          <div class="single-fun-factor">
+            <div class="fun-factor-icon">
+              <i class="fa fa-bank"></i>
+            </div>
+            <h2><span class="counter">45</span></h2>
+            <span>Classes</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+          <div class="single-fun-factor">
+            <div class="fun-factor-icon">
+              <i class="fa fa-user"></i>
+            </div>
+            <h2><span class="counter">255</span></h2>
+            <span>Students</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+          <div class="single-fun-factor">
+            <div class="fun-factor-icon">
+              <i class="fa fa-clock-o"></i>
+            </div>
+            <h2><span class="counter">250</span></h2>
+            <span>Attendance</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of  counting Fun Factor Area-->
+  <!-- start Gallery -->
+  <section>
+    <div class="container">
+      <div class="row mt-5 mx-0">
+        <div class="col-lg-12">
+          <div class="gallary-title text-center">
+            <h2>Suborno Joyontee Corner</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="gallary">
+            <a class="venobox vbox-item" data-gall="gallery01" href="img/gallery/p1.png">
+              <img src="img/gallery/p1.png" alt="" class="d-block w-100">
+            </a>
+          </div>
+          <div class="gallary">
+            <a class="venobox vbox-item" data-gall="gallery01" href="img/gallery/p4.jpg">
+              <img src="img/gallery/p4.jpg" alt="" class="d-block w-100">
+            </a>
+          </div>
+          <div class="gallary">
+            <a class="venobox vbox-item" data-gall="gallery01" href="img/gallery/p2.png">
+              <img src="img/gallery/p2.png" alt="" class="d-block w-100">
+            </a>
+          </div>
+          <div class="gallary">
+            <a class="venobox vbox-item" data-gall="gallery01" href="img/gallery/p6.jpg">
+              <img src="img/gallery/p6.jpg" alt="" class="d-block w-100">
+            </a>
+          </div>
+          <div class="gallary">
+            <a class="venobox vbox-item" data-gall="gallery01" href="img/gallery/p5.jpg">
+              <img src="img/gallery/p5.jpg" alt="" class="d-block w-100">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end gallary -->
+  <!-- start Campus News -->
+  <section class="bg-light padding-y-100 Campus-News">
+    <div class="container p-4 ">
+      <div class="row ">
+        <div class="col-12 text-center mb-md-4">
+          <h2 class="mb-4 mt-5">
+            Campus News
+          </h2>
+          <div class="width-3rem height-4 rounded bg-primary mx-auto"></div>
+        </div>
+      </div> <!-- END row-->
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="list-card align-items-center mt-5">
+            <div class="col-md-4 px-md-0">
+              <img class="w-100" src="img/gallery/15.jpg" alt="">
+            </div>
+            <div class="col-md-8 p-4">
+              <p class="">January 01, 2021</p>
+              <a href="#" class="h5">
+                SSC Scholarship Result 2022 All Education Board Bangladesh
+              </a>
+            </div>
+          </div>
+          <div class="list-card align-items-center mt-5">
+            <div class="col-md-4 px-md-0">
+              <img class="w-100" src="img/gallery/16.jpg" alt="">
+            </div>
+            <div class="col-md-8 p-4">
+              <p class="">January 01, 2021</p>
+              <a href="#" class="h5">
+                PSC Primary Scholarship Result 2022
+              </a>
+            </div>
+          </div>
+          <div class="list-card align-items-center mt-5">
+            <div class="col-md-4 px-md-0">
+              <img class="w-100" src="img/gallery/17.jpg" alt="">
+            </div>
+            <div class="col-md-8 p-4">
+              <p class="">January 01, 2021</p>
+              <a href="#" class="h5">
+                Govt announces schedule for 2022 SSC exams
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-5 Campus">
+          <div class="card">
+            <img class="card-img-top" src="img/gallery/14.jpg" alt="">
+            <div class="card-body">
+              <p class="list-card">
+                September 13, 2021
+              </p>
+              <h4>
+                <a href="#">
+                  All Colleges Code and EIIN Number of Bangladesh
+                </a>
+              </h4>
+              <p>
+                All students can download all college (EIIN) identification number as pdf file for their future coll
+              </p>
+              <a href="https://demo.webpointbd.com/news-details/30" class="btn   btn-outline-warning">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div> <!-- END row-->
+    </div> <!-- END container-->
+  </section>
+  <!--Teachers Column Carousel Start-->
+  <div class="teachers-column-carousel-area section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-title-wrapper">
+            <div class="section-title">
+              <h3>Our Teachers</h3>
+              <p>We are glad to introduce our professional staff</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="teachers-column-carousel carousel-style-one owl-carousel">
+        <div class="single-teachers-column text-center">
+          <div class="teachers-image-column">
+            <a href="#">
+              <img src="img/teacher/1.png" alt="" />
+              <span class="image-hover">
+                <span><i class="fa fa-edit"></i>View Profile</span>
+              </span>
+            </a>
+          </div>
+          <div class="teacher-column-carousel-text">
+            <h4>Sajid</h4>
+            <span>Professor, Harvard College</span>
+            <p>
+              It is a long established fact that a reader will be distracted
+              by the readable content of a page when looking at its layout.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="single-teachers-column text-center">
+          <div class="teachers-image-column">
+            <a href="#">
+              <img src="img/teacher/2.png" alt="" />
+              <span class="image-hover">
+                <span><i class="fa fa-edit"></i>View Profile</span>
+              </span>
+            </a>
+          </div>
+          <div class="teacher-column-carousel-text">
+            <h4>Md. Hosen Zisad</h4>
+            <span>Professor, Harvard College</span>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry, has been the industry's standard dummy.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="single-teachers-column text-center">
+          <div class="teachers-image-column">
+            <a href="#">
+              <img src="img/teacher/10.jpg" alt="" />
+              <span class="image-hover">
+                <span><i class="fa fa-edit"></i>View Profile</span>
+              </span>
+            </a>
+          </div>
+          <div class="teacher-column-carousel-text">
+            <h4>Tohid</h4>
+            <span>Professor, Harvard College</span>
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random
+              text. It has roots in a piece of classical Latin literature
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="single-teachers-column text-center">
+          <div class="teachers-image-column">
+            <a href="#">
+              <img src="img/teacher/9.jpg" alt="" />
+              <span class="image-hover">
+                <span><i class="fa fa-edit"></i>View Profile</span>
+              </span>
+            </a>
+          </div>
+          <div class="teacher-column-carousel-text">
+            <h4>Shakib</h4>
+            <span>Professor, Harvard College</span>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="single-teachers-column text-center">
+          <div class="teachers-image-column">
+            <a href="#">
+              <img src="img/teacher/8.jpg" alt="" />
+              <span class="image-hover">
+                <span><i class="fa fa-edit"></i>View Profile</span>
+              </span>
+            </a>
+          </div>
+          <div class="teacher-column-carousel-text">
+            <h4>Tamim</h4>
+            <span>Professor, Harvard College</span>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry, has been the industry's standard dummy.
+            </p>
+            <div class="social-links">  
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Teachers Column Carousel-->
+
+  <section style="display: flex; justify-content: center; ">
+    <div class="col-lg-6 col-md-6 col-sm-12 ">
+      <div class="subscribe-container">
+        <h3>Subscribe to Newsletter</h3>
+        <p>
+          Get notified about new courses, events, community & more
+        </p>
+        <form action="#">
+          <div class="subscribe-form">
+            <input type="email" name="email" placeholder="Your email here" />
+            <button type="submit"><i class="fa fa-send"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Contact Area Strat-->
+  <div class="contact-area section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+
+          <!--Google Map Area Start -->
+          <div class="google-map-area">
+            <!--  Map Section -->
+            <div id="contacts" class="map-area">
+              <div id="googleMap" style="width: 100%; height: 451px;">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.6817019535715!2d91.84021977403405!3d22.3656443405262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad2764bdcab021%3A0xb35dd5e1bc2f9e65!2sWeb%20Point%20Ltd!5e0!3m2!1sen!2sbd!4v1683358842491!5m2!1sen!2sbd"
+                  width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+          <!--End of Google Map Area-->
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-form">
+            <div class="single-title">
+              <h3>Send A Message</h3>
+            </div>
+            <div class="contact-form-container">
+              <form id="contact-form" action="http://whizthemes.com/mail-php/contact/mail.php" method="post" f>
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="name" placeholder="Your Name *" />
+                  </div>
+                  <div class="col-md-6">
+                    <input type="email" name="email" placeholder="Your Email *" />
+                  </div>
+                </div>
+                <input type="text" name="subject" placeholder="Subject *" />
+                <textarea name="message" class="yourmessage" placeholder="Your message"></textarea>
+                <button type="submit" class="button-default button-yellow submit">
+                  <i class="fa fa-send"></i>Submit
+                </button>
+              </form>
+              <p class="form-messege"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Contact Area-->
+
+  <!--Footer Area Start-->
+  <div class="footer-area">
+    <div class="container">
+      <div class="footer-widget-container section-padding ">
+        <div class="row">
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget">
+              <img src="img/logo/logo.png" alt="">
+              <ul class="footer-widget-list ">
+                <p>WP-IMS is a latest technology of educational institute’s digitization. This is the fastest and most
+                  intelligent application ever made in Bangladesh.</p>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget ">
+              <h4>Links</h4>
+              <ul class="footer-widget-list ">
+                <li><a href="#"> Dhaka Education Board</a></li>
+                <li><a href="#"> Ministry of Education</a></li>
+                <li><a href="#"> National University</a></li>
+                <li><a href="#"> 10 minute school</a></li>
+                <li><a href="#"> Khan Academy</a></li>
+                <li><a href="#">শিক্ষক বাতায়ন</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget">
+              <h4>Contact Us</h4>
+              <ul class="footer-widget-list fwl">
+
+                <li class="list-inline-item"><a class="iconbox   mr-3  mt-2" href="#" target="_blank"><i
+                      class="fa fa-phone  " aria-hidden="true" style=" color: #f9f9f9;font-size: 16px; "></i> </a><a
+                    href="tel:+8801875004610">+8801875004610</a>
+                </li>
+                <li class="list-inline-item"><a class="iconbox   mr-3  mt-2" href="#" target="_blank"><i
+                      class="fa fa-envelope  " aria-hidden="true" style=" color: #ffffff;font-size: 16px; "></i></a> <a
+                    href="">info@webpointbd.com</a> </li>
+
+                <li>
+                  <div class="media">
+                    <a class="iconbox   mr-3  mt-3" href="#" target="_blank"><i class="fa fa-map-marker   "
+                        aria-hidden="true" style=" color: #ffffff;font-size: 16px; "></i></a>
+                    <div class="media-body">
+                      <a href="#" style="line-height: normal;">Hoque Mansion(1st Floor),Arakan Road, Badurtola,
+                        Panchlaish,Chattogram</a>
+                    </div>
+                  </div>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 footerCopyRight ">
+          <div class="footer-container">
+            <div class="row">
+              <div class="col-lg-6 ">
+                <span>&copy;
+                  <a href="#"> 2023 WebPointLtd. All rights reserved. Created by Web Point Ltd.</a>
+                </span>
+              </div>
+              <div class="col-lg-6">
+                <div class="social-links">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Footer Area-->
+  <!-- <div class="footerCopyRight">
+   
+</div> -->
+
+
+
+
+  <!-- jquery
+		============================================ -->
+  <script src="js/vendor/jquery-1.12.3.min.js"></script>
+
+  <!-- Popper JS
+		============================================ -->
+  <script src="js/popper.js"></script>
+
+  <!-- bootstrap JS
+		============================================ -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- bootstrap Toggle JS
+		============================================ -->
+  <script src="js/bootstrap-toggle.min.js"></script>
+
+  <!-- nivo slider js
+		============================================ -->
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js"></script>
+  <script src="lib/nivo-slider/home.js"></script>
+
+  <!-- wow JS
+		============================================ -->
+  <script src="js/wow.min.js"></script>
+
+  <!-- meanmenu JS
+		============================================ -->
+  <script src="js/jquery.meanmenu.js"></script>
+
+  <!-- Owl carousel JS
+		============================================ -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!-- Countdown JS
+		============================================ -->
+  <script src="js/jquery.countdown.min.js"></script>
+
+  <!-- scrollUp JS
+		============================================ -->
+  <script src="js/jquery.scrollUp.min.js"></script>
+
+  <!-- Waypoints JS
+		============================================ -->
+  <script src="js/waypoints.min.js"></script>
+
+  <!-- Counterup JS
+		============================================ -->
+  <script src="js/jquery.counterup.min.js"></script>
+
+  <!-- Slick JS
+		============================================ -->
+  <script src="js/slick.min.js"></script>
+
+  <!-- Mix It Up JS
+		============================================ -->
+  <script src="js/jquery.mixitup.js"></script>
+
+  <!-- Venubox JS
+		============================================ -->
+  <script src="js/venobox.min.js"></script>
+
+  <!-- plugins JS
+		============================================ -->
+  <script src="js/plugins.js"></script>
+
+
+  <!-- main JS
+		============================================ -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

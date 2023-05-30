@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>School Website</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- favicon
+		============================================ -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon1.ico" />
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-M4A4P4GJEr5d5z0ey7VrZ+P5AS6PcJ6/LFWU/OL0y6aKH+7BTgrgK8Jb7H+YGtlm" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pKzuVY3q1QDfV5d5a5n5nMf5fy6zXUi6U68OWfuUuYwOhGgy6Uk/7xZvg0Wwn1zS" crossorigin="anonymous">
+  </script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/venobox/venobox/venobox.min.css" type="text/css"
+    media="screen" />
+  <script src="https://cdn.jsdelivr.net/npm/venobox/venobox/venobox.min.js"></script>
+
+
+  <!-- Google Fonts
+		============================================ -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700" rel="stylesheet" type="text/css" />
+
+  <!-- Style CSS
+		============================================ -->
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://www.vnsc.edu.bd/frontend/vnsc/js/venobox.min.js"></script>
+
+  <!-- Modernizr JS
+		============================================ -->
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+  <!--Header Area Start-->
+  <header>
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-8">
+            <div class="header-top-info">
+              <span>Open hours: 8.00-18.00 Mon-Sat</span>
+              <div class="social-links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </div>
+              <p>EIIN: 4321</p>
+              <p>Institute Code: 1234567</p>
+            </div>
+
+          </div>
+          <div class="col-lg-5 col-md-4">
+            <div class="header-login-register">
+              <ul class="login">
+                <li>
+                  <a href="#"><i class="fa fa-key"></i>Login</a>
+                  <div class="login-form">
+                    <h4>Login</h4>
+                    <form action="#" method="post">
+                      <div class="form-box">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="user-name" placeholder="Username" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="user-password" placeholder="Password" />
+                      </div>
+                      <div class="button-box">
+                        <button type="submit" class="login-btn">Login</button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+              <ul class="register">
+                <li>
+                  <a href="#"><i class="fa fa-lock"></i>Sign Up</a>
+                  <div class="register-form">
+                    <h4>Sign Up</h4>
+                    <span>Please sign up using account detail bellow.</span>
+                    <form action="#" method="post">
+                      <div class="form-box">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="user-name" placeholder="Username" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="user-password" placeholder="Password" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" name="user-email" placeholder="Email" />
+                      </div>
+                      <div class="button-box">
+                        <input checked data-toggle="toggle" type="checkbox" />
+                        <span>Remember me</span>
+                        <button type="submit" class="register-btn">
+                          Register
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------ -->
+    <div class="col-md-12 text-blue text-center">
+      <h2>
+        <span style="color:#0b0a0a;font-size:25px;font-family: sans-serif; ">Web Point</span><br>
+        <span style="color:#0f0e0e;font-size:25px;font-family: sans-serif;">ওয়েব পয়েন্ট লিমিটেড</span>
+      </h2>
+    </div>
+    <!--Logo Mainmenu Start-->
+    <div class="header-logo-menu sticker">
+      <div class="container">
+        <div class="logo-menu-bg">
+          <div class="row">
+            <div class="col-lg-3 col-md-12">
+              <div class="logo">
+                <a href="index.html"><img src="img/logo/logo.png" alt="logo" /></a>
+              </div>
+            </div>
+            <div class="col-lg-9 d-none d-lg-block">
+              <div class="mainmenu-area">
+                <div class="mainmenu">
+                  <nav>
+                    <ul id="nav">
+                      <li><a href="index.html">Home</a></li>
+                      <li class="current">
+                        <a href="index.html">Institute <i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="#">About Institute <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="about.html">Introduction </a></li>
+                              <li><a href="GoverningBody.html">Governing Body</a></li>
+                              <li><a href="Founder.html">Founder & Donor</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Admistration Message <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="Principalmessage.html">Principal Message </a></li>
+                              <li><a href="Presidentmessage.html">President Message</a></li>
+                             
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Infrastructure <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="building.html">Building & Room </a></li>
+                              <li><a href="library.html">library</a></li>
+                              <li><a href="Transport.html">Transport Management</a></li>
+                              <li><a href="Principalmessage.html"> Hostel </a></li>
+                              <li><a href="Principalmessage.html">Land Information </a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Academics <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="Principalmessage.html">Class- Routine </a></li>
+                              <li><a href="Principalmessage.html">Diray Management</a></li>
+                              <li><a href="Presidentmessage.html">Academic Claender</a></li>
+                              <li><a href="Principalmessage.html">Syllabus</a></li>
+                              <li><a href="Principalmessage.html"> Performance </a></li>
+                              
+                            </ul>
+                          </li>                      
+                          <li>
+                            <a href="index-5.html">Digital Campus<i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+                              <li><a href="Principalmessage.html">Multimedia Class Room </a></li>
+                              <li><a href="Principalmessage.html">Computer Lab</a></li>
+                              <li><a href="Presidentmessage.html">Science</a></li>                                                            
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a href="#">Team <i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li><a href="ManagingComt.html"> Managing Committee </a></li>
+                          <li><a href="teacher.html"> Teachers </a></li>
+                          <li>
+                            <a href="Staff.html">Staff</a>
+                          </li>
+                          <li>
+                            <a href="class-details.html"> Women Abuse Prevention Committee </a>
+                          </li>
+                          <li>
+                            <a href="Tswt.html"> Teacher & Staff Welfare Trust </a>
+                          </li>
+                          <li>
+                            <a href="TCI.html"> Teachers Council Information </a>
+                          </li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="teacher.html">Result<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="teacher-info.html">Internal Result</a>
+                          </li>
+                          <li>
+                            <a href="teacher-info.html">Public Examination</a>
+                          </li>
+                          <li>
+                            <a href="teacher-info.html">Online Admission</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li>
+                        <a href="index.html">News & Notice<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li><a href="#">Notice & News</a></li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="blog.html">Information<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="blog-details.html"> Sports & Cultural Program </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Center Information </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Scholarship Info </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> BNCC </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Rover Scout </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Tender </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Privacy Policy </a>
+                          </li>
+
+
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <ul class="header-search">
+                  <li class="search-menu">
+                    <i id="toggle-search" class="fa fa-search"></i>
+                  </li>
+                </ul>
+                <!--Search Form-->
+                <div class="search">
+                  <div class="search-form">
+                    <form id="search-form" action="#">
+                      <input type="search" placeholder="Search here..." name="search" />
+                      <button type="submit">
+                        <span><i class="fa fa-search"></i></span>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <!--End of Search Form-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of Logo Mainmenu-->
+    <!-- Mobile Menu Area start -->
+    <div class="mobile-menu-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="mobile-menu">
+              <nav id="dropdown">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li>
+                    <a href="index.html">Institute </a>
+                    <ul>
+                      <li><a href="index-2.html">About Institute</a>
+                        <ul class="subdrop">
+                          <li class="bg-primary"><a href="#">Introduction</a></li>
+                          <li class="bg-success"><a href="#">Governing Body</a></li>
+                          <li class="bg-primary"><a href="#">Founder & Donor</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="index-3.html">Admistration Message</a></li>
+                      <li><a href="index-4.html">Infrastructure</a></li>
+                      <li><a href="index-5.html">Academics</a></li>
+                      <li><a href="index-5.html">Digital Campus</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="class-grid.html">Team</a>
+                    <ul>
+                      <li><a href="class-grid.html">Managing Committee</a></li>
+                      <li><a href="class-list.html">Teachers</a></li>
+                      <li><a href="class-details.html">Staff</a></li>
+                      <li><a href="class-details.html">Women Abuse Prevention Committee</a></li>
+                      <li><a href="class-details.html">Teacher & Staff Welfare Trust</a></li>
+                      <li><a href="class-details.html">Teachers Council Information</a></li>
+
+
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="teacher.html">Result</a>
+                    <ul>
+                      <li><a href="teacher-info.html">Internal Result</a></li>
+                      <li><a href="teacher-info.html">Public Examination</a></li>
+                      <li><a href="teacher-info.html">Online Admission</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li>
+                    <a href="#.html">News & Notice</a>
+                    <ul>
+                      <li><a href="#.html">Notice & News</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="class-grid.html">Information</a>
+                    <ul>
+                      <li><a href="class-grid.html">Sports & Cultural Program </a></li>
+                      <li><a href="class-list.html">Center Information</a></li>
+                      <li><a href="class-details.html"> Scholarship Info</a></li>
+                      <li><a href="class-details.html">BNCC </a></li>
+                      <li><a href="class-details.html">Rover Scout</a></li>
+                      <li><a href="class-details.html">Tender</a></li>
+                      <li> <a href="blog-details.html"> Privacy Policy </a> </li>
+
+                    </ul>
+                  </li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu Area end -->
+
+  </header>
+  <!--End of Header Area-->
+
+
+
+    <section class="padding-y-100 border-bottom" style="border: dotted;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <h2
+                        style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px; font-family: DauphinPlain; line-height: 24px; color: rgb(0, 0, 0); font-size: 24px; padding: 0px;">
+                        Teachers and Staff Welfare Trust Act, 1990</h2>
+                    <p open="" sans arial,="" sans-serif;="" font-size:=" 14px;"
+                        style="margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify; color: rgb(0, 0, 0);">
+                        <b style="font-family:Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;">Act
+                            No.28 of 1990</b><span
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;"></span>
+                    </p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;"><b>An
+                            Act made to make provisions for the establishment of a welfare trust for the benefit of
+                            teachers and employees of unofficial education institutes</b></p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;">Whereas
+                        it is expedient to make provisions for the establishment of a trust called welfare trust for the
+                        benefit of teachers and employees of unofficial education institutes;</p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;">
+                        Therefore the following Act is hereby made:-</p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;"><b>1.
+                            Short title and commencement.-</b>&nbsp;(1) This Act may be called welfare trust for the
+                        benefit of teachers and employees of unofficial education institutes Act, 1990.<br>(2) The
+                        Government may, by announcement in the official Gazette, put this Act into effect at any date it
+                        will determine.</p>
+                    <p style="color: rgb(0, 0, 0); font-family:Times New 'Times New Roman', Times, serif; font-size: medium;"><b>2.
+                            Definitions.-</b>&nbsp;Unless there is anything repugnent in the subject or context, in this
+                        Act-</p>
+                    <blockquote
+                        style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;">a)
+                        "employee" means any employee employed at a unofficial educational institute receiving grants
+                        from the Government on account of the salary;<br>b) "trust" means the unofficial educational
+                        institutes, teachers and employees welfare trust established under this Act;<br>c) "regulation"
+                        means any regulation made under this Act;<br>d) "unofficial education institute" means any
+                        unofficial secondary school, college or madrasa;<br>e) "board" means the trust board established
+                        under this Act;<br>f) "teacher" means any teacher employed at an unofficial educational
+                        institute receiving grants from the Government on accuont of the salary.</blockquote>
+                    <p open="" sans arial,="" sans-serif;="" font-size:="" 14px;
+                        style="margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify; color: rgb(0, 0, 0);">
+                        <b style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;">3.
+                            Establishment of the trust.-</b><span
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;">&nbsp;(1)
+                            This Act having been put into force, a trust called welfare trust for the benefit of
+                            teachers and employees of unofficial education institutes shall, subject to the provisions
+                            of this Act, be established as fast as possible.</span><br
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;"><span
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;">(2)
+                            The trust shall be a statutory institution and it shall have regular succession and a common
+                            seal and it shall have power to acquire, take under custody and transfer any property, be it
+                            movable or immovable, and suits may be filed by or against it.</span></p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;"><b>4.
+                            Head-office of the trust.-</b>&nbsp;The head-office of the trust shall be situated in Dhaka
+                        and it may, if need be, establish sub-offices at any place whatsoever.</p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;"><b>5.
+                            General management.-</b>&nbsp;The management and administration of the trust shall be
+                        entrusted to a trustee board, which shall have all the powers and perform all the functions the
+                        trust has, or is entitled to.</p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;"><b>6.
+                            Trustee board.-</b>&nbsp;(1) The trustee board shall comprise the following members,
+                        namely:-</p>
+                    <blockquote
+                        style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;">a) the
+                        Secretary of the Department of Education, who shall also be its Chairman;<br>b) the
+                        Chief-Director of the office for secondary and higher education, who shall also be its
+                        vice-chairman;<br>c) a director of the office for secondary and higher education nominated by
+                        the Government;<br>d) an officer of the Department of Education nominated by that
+                        Department;<br>e) an officer of the Establishment Council nominated by that Council;<br>f) an
+                        officer of the Department of Finance nominated by that Department;<br>g) six teachers nominated
+                        by the Government, comprising two teachers of unofficial secondary schools and two teachers of
+                        unofficial madrasas;<br>h) two employes nominated by the Government.</blockquote>
+                    <p open="" sans arial,="" sans-serif;="" font-size:="" 14px
+                        style="margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify; color: rgb(0, 0, 0);">
+                        <span
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;">(2)
+                            The board shall have a secretary who shall be nominated by the Government from among the
+                            teachers referred to in clause g) of subsection (1).</span><br
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;"><span
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;">(3)
+                            Whoever has been nominated member of the board under clause g) and clause h) of subsection
+                            (1) shall remain so for three years beginning from the date of the nomination:</span><br
+                            style="font-family:Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;"><span
+                            style="font-family: Times New Roman; font-size: medium; text-align: start;">Provided
+                            that the Government may, before the expiry of that period, remove at any time any such
+                            member from his post without showing any reason:</span><br
+                            style="font-family: Times New Roman; font-size: medium; text-align: start;"><span
+                            style="font-family: Times New Roman; font-size: medium; text-align: start;">Provided
+                            further that any such member may resign his post by sending a signed letter to the
+                            Government.</span></p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;"><b>7.
+                            Duties of the trust.-</b>&nbsp;The trust shall have the following duties-</p>
+                    <blockquote
+                        style="color: rgb(0, 0, 0); font-family:Times New 'Times New Roman', Times, serif; font-size: medium;">a)
+                        granting of benefits etc. to retired teachers and employees of unofficial educational
+                        institutes;<br>b) rendering financial support to teachers and employees of unofficial education
+                        institutes, who have, for one reason or other, fallen into distress while being in
+                        employment;<br>c) rendering assistance to the families of teachers and employees of unofficial
+                        educational institutesin, who died in an accident while being in employment;<br>d) rendering
+                        financial support to teachers and employees of unofficial education institutes, who suffer from
+                        a grave and prolongated illness while being in employment;<br>e) providing for the welfare of
+                        teachers and employees of unofficial education institutes generally;<br>f) taking all measures
+                        necessary for the fulfillment of the abovementioned duties.</blockquote>
+                    <p open="" sans arial,="" sans-serif;="" font-size:="" 14px;
+                        style="margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify; color: rgb(0, 0, 0);">
+                        <b style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;">8.
+                            Meetings of the Board.-</b><span
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;">&nbsp;(1)
+                            Subject to the provisions of this section, the Board may determine the procedure of its
+                            meetings.</span><br
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;"><span
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;">(2)
+                            The meetings of the Board shall be convened by the secretary after the consent of its
+                            Chairman and it shall be hold at the place and time determined by the Chairman.</span><br
+                            style="font-family: Times New 'Times New Roman', Times, seri; font-size: medium; text-align: start;"><span
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;">(3)
+                            The meetings of the Board shall be presided over by the Chairman, and in case of his
+                            absence, by the Vice-Chairman, and case of the absence of both, by a member chosen by the
+                            present members of the meeting from among themselves.</span><br
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;"><span
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;">(4)
+                            The meeting of the Board to form a quorum, the presence of no less than one third of the
+                            total membership shall be required, but no quorum shall be required in the case of postponed
+                            meetings.</span><br
+                            style="font-family: Times New Roman; font-size: medium; text-align: start;"><span
+                            style="font-family: Times New Roman; font-size: medium; text-align: start;">(5)
+                            Every member shall have one single vote and the person presiding over the meeting shall, in
+                            the event of a tied vote, have the power to cast a second or decisive vote.</span><br
+                            style="font-family: Times New Roman; font-size: medium; text-align: start;"><span
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;">(6)
+                            No act or proceeding of the Board shall be invalid on the mere ground of the existance of a
+                            vacancy in, or any defect in the constitution, of the Board and no question may be raised
+                            referring to this.</span></p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;"><b>9.
+                            Fund of the trust.-</b>&nbsp;(1) The trust shall have a fund and it shall meet the
+                        expenditures necessary to fulfill its duties from this fund.<br>(2) The Government shall, after
+                        the establishment of a trust under this Act, as fast as possible, deposit a lump-grant of ten
+                        million Takas with a bank scheduled for the benefit of the trust and the interests and profits
+                        arising out of the deposited money shall be deposited with the fund as grants of the
+                        Government.<br>(3) With the fund of the trust shall be deposited-</p>
+                    <blockquote
+                        style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;">a)
+                        interests and profits received under subsection (1);<br>b) grants given by the Government;<br>c)
+                        contributions paid by teachers and employees of unofficial education institutes;<br>d)
+                        contributionspaid by pupils of unofficial education institutes;<br>e) grants given by local
+                        authorities;<br>f) money the trust may receive from other sources.</blockquote>
+                    <p open="" sans arial,="" sans-serif;="" font-size:="" 14px;
+                        style="margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify; color: rgb(0, 0, 0);">
+                        <span
+                            style="font-family:Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;">(4)
+                            The fund of the trust may, after approval of the Board, be deposited with any scheduled bank
+                            and it shall be conducted in the ways determined by regulations.</span><br
+                            style="font-family: Times New 'Times New Roman', Times, serif; font-size: medium; text-align: start;"><span
+                            style="font-family: Times New Roman; font-size: medium; text-align: start;">(5)
+                            The money of the trust shall be invested in such sectors as may be determined by
+                            regulations.</span></p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;"><b>10.
+                            Contributions paid by teachers and employees.-</b>&nbsp;(1) Every teacher and employee of an
+                        unofficial education institution shall pay contributions to the fund of the trust of such amount
+                        and in such way as will be determined by regulations.<br>(2) If any teacher or employee
+                        expresses his refusal to pay the contributions referred to under subsection (1) or if his
+                        contributions are outstanding, he or any member of his family shall not be entitled to receive
+                        any benefit under this Act:<br>Provided that where, in the case of outstanding contributions,
+                        the Board comes to the decision that the contributions have not been left outstanding willingly,
+                        or that the contributions have been left outstanding due to circumstances which are out of
+                        control of the contributors, the Board may, after providing for the payment of the outstanding
+                        contributions, grant him or any member of his family the benefits under this Act.</p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;"><b>11.
+                            Contributions paid by pupils.-</b>&nbsp;(1) Notwithstanding anything contained in any Act
+                        for the time being in force, every pupil of an unofficial education institution shall, within
+                        one month after the commencement of the teaching year, pay a lump contribution, of the amount
+                        and in the way determined by regulations, for the fund of the trust.<br>(2) The authorities of
+                        the education institution shall, in the way determined by regulations, deposit the contributions
+                        of the pupils referred to under subsection (1) with the fund of the trust.<br>(3) Where, after
+                        the termination of the teaching year, it becomes apparent for any reason that a education
+                        institution did not realize the contributions receivable from its pupils or that it did not
+                        deposit the realized contributions with the fund of the trust, the Government shall, on
+                        application from the Board, subtract the amount of those contributions from the grants to be
+                        given to the education institution, and deposit it with the fund of the trust.</p>
+                    <p style="color: rgb(0, 0, 0); font-family:Times New 'Times New Roman', Times, serif;; font-size: medium;"><b>12.
+                            Keeping and auditing of accounts.-</b>&nbsp;(1) The trust shall keep its accounts properly
+                        and it shall prepare an annually report thereof.<br>(2) The auditor and controller of
+                        mega-accounts of Bangladesh, hereinafter referred to as auditor of major accounts, shall audit
+                        the accounts of the trust annually and send a copy of the auditing report to the Government and
+                        Board.<br>(3) The auditor of major accounts or any other person authorized by him in this behalf
+                        may, for the purpose of auditing accounts in accordance with subsection (2), investigate all the
+                        records, credentials, money, in cash or deposited with a bank, securities, stocks or other kinds
+                        of assets of the trust and it may inquire any member, officer or employee of the trust.</p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New Roman; font-size: medium;"><b>13.
+                            Officers and employees of the trust.-</b>&nbsp;The trust may appoint such number of officers
+                        and employees as may be required to perform its functions properly and the conditions of their
+                        employment shall be determined by regulations.</p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New Roman; font-size: medium;"><b>14.
+                            Report-</b>&nbsp;(1) The trust shall annually, within a period that may extend to June 30,
+                        send a report together with a ledger of the functions performed in the course of the foregoing
+                        year to the Government.<br>(2) The Government may, if need be, at any time demand reports and
+                        statements on whatever subject from the trust and the trust shall be bound to furnish such
+                        reports and statements.</p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New 'Times New Roman', Times, serif; font-size: medium;"><b>15.
+                            Release from liability.-</b>&nbsp;If by any action taken in good faith under this Act or
+                        under any regulation, any person suffers, or is likely to suffer, any loss, it shall not be
+                        possible to raise any suit before any civil or criminal court, or any other legal procedure,
+                        against any member, officer or employee of the trust.</p>
+                    <p style="color: rgb(0, 0, 0); font-family: Times New Roman; font-size: medium;"><b>16.
+                            Power to make regulations.-</b>&nbsp;The trust may, with the prior approval of the
+                        Government and by notification in the official Gazette, make, for the purpose of this Act, such
+                        regulations as are not inconsistent with this Act.</p>
+                    <p open="" san arial,="" sans-serif;="" font-size:="" 14px;
+                        style="margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify; color: rgb(0, 0, 0);">
+                        <img src="img/computerlab.jpg" style="width: 293.1px;"></p>
+                </div>
+            </div> <!-- END row-->
+        </div> <!-- END container-->
+    </section>
+
+
+
+
+
+  <!--Footer Area Start-->
+  <div class="footer-area">
+    <div class="container">
+      <div class="footer-widget-container section-padding ">
+        <div class="row">
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget">
+              <img src="img/logo/logo.png" alt="">
+              <ul class="footer-widget-list ">
+                <p>WP-IMS is a latest technology of educational institute’s digitization. This is the fastest and most
+                  intelligent application ever made in Bangladesh.</p>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget ">
+              <h4>Links</h4>
+              <ul class="footer-widget-list ">
+                <li><a href="#"> Dhaka Education Board</a></li>
+                <li><a href="#"> Ministry of Education</a></li>
+                <li><a href="#"> National University</a></li>
+                <li><a href="#"> 10 minute school</a></li>
+                <li><a href="#"> Khan Academy</a></li>
+                <li><a href="#">শিক্ষক বাতায়ন</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget">
+              <h4>Contact Us</h4>
+              <ul class="footer-widget-list fwl">
+
+                <li class="list-inline-item"><a class="iconbox   mr-3  mt-2" href="#" target="_blank"><i
+                      class="fa fa-phone  " aria-hidden="true" style=" color: #f9f9f9;font-size: 16px; "></i> </a><a
+                    href="tel:+8801875004610">+8801875004610</a>
+                </li>
+                <li class="list-inline-item"><a class="iconbox   mr-3  mt-2" href="#" target="_blank"><i
+                      class="fa fa-envelope  " aria-hidden="true" style=" color: #ffffff;font-size: 16px; "></i></a> <a
+                    href="">info@webpointbd.com</a> </li>
+
+                <li>
+                  <div class="media">
+                    <a class="iconbox   mr-3  mt-3" href="#" target="_blank"><i class="fa fa-map-marker   "
+                        aria-hidden="true" style=" color: #ffffff;font-size: 16px; "></i></a>
+                    <div class="media-body">
+                      <a href="#" style="line-height: normal;">Hoque Mansion(1st Floor),Arakan Road, Badurtola,
+                        Panchlaish,Chattogram</a>
+                    </div>
+                  </div>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 footerCopyRight ">
+          <div class="footer-container">
+            <div class="row">
+              <div class="col-lg-6 ">
+                <span>&copy;
+                  <a href="#"> 2023 WebPointLtd. All rights reserved. Created by Web Point Ltd.</a>
+                </span>
+              </div>
+              <div class="col-lg-6">
+                <div class="social-links">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Footer Area-->
+  <!-- <div class="footerCopyRight">
+   
+</div> -->
+
+  <!-- jquery
+		============================================ -->
+  <script src="js/vendor/jquery-1.12.3.min.js"></script>
+
+  <!-- Popper JS
+		============================================ -->
+  <script src="js/popper.js"></script>
+
+  <!-- bootstrap JS
+		============================================ -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- bootstrap Toggle JS
+		============================================ -->
+  <script src="js/bootstrap-toggle.min.js"></script>
+
+  <!-- nivo slider js
+		============================================ -->
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js"></script>
+  <script src="lib/nivo-slider/home.js"></script>
+
+  <!-- wow JS
+		============================================ -->
+  <script src="js/wow.min.js"></script>
+
+  <!-- meanmenu JS
+		============================================ -->
+  <script src="js/jquery.meanmenu.js"></script>
+
+  <!-- Owl carousel JS
+		============================================ -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!-- Countdown JS
+		============================================ -->
+  <script src="js/jquery.countdown.min.js"></script>
+
+  <!-- scrollUp JS
+		============================================ -->
+  <script src="js/jquery.scrollUp.min.js"></script>
+
+  <!-- Waypoints JS
+		============================================ -->
+  <script src="js/waypoints.min.js"></script>
+
+  <!-- Counterup JS
+		============================================ -->
+  <script src="js/jquery.counterup.min.js"></script>
+
+  <!-- Slick JS
+		============================================ -->
+  <script src="js/slick.min.js"></script>
+
+  <!-- Mix It Up JS
+		============================================ -->
+  <script src="js/jquery.mixitup.js"></script>
+
+  <!-- Venubox JS
+		============================================ -->
+  <script src="js/venobox.min.js"></script>
+
+  <!-- plugins JS
+		============================================ -->
+  <script src="js/plugins.js"></script>
+
+
+  <!-- main JS
+		============================================ -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

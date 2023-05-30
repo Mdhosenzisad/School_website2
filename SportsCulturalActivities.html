@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>School Website</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- favicon
+		============================================ -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon1.ico" />
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-M4A4P4GJEr5d5z0ey7VrZ+P5AS6PcJ6/LFWU/OL0y6aKH+7BTgrgK8Jb7H+YGtlm" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pKzuVY3q1QDfV5d5a5n5nMf5fy6zXUi6U68OWfuUuYwOhGgy6Uk/7xZvg0Wwn1zS" crossorigin="anonymous">
+  </script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/venobox/venobox/venobox.min.css" type="text/css"
+    media="screen" />
+  <script src="https://cdn.jsdelivr.net/npm/venobox/venobox/venobox.min.js"></script>
+
+
+  <!-- Google Fonts
+		============================================ -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700" rel="stylesheet" type="text/css" />
+
+  <!-- Style CSS
+		============================================ -->
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://www.vnsc.edu.bd/frontend/vnsc/js/venobox.min.js"></script>
+
+  <!-- Modernizr JS
+		============================================ -->
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+  <!--Header Area Start-->
+  <header>
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-8">
+            <div class="header-top-info">
+              <span>Open hours: 8.00-18.00 Mon-Sat</span>
+              <div class="social-links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </div>
+              <p>EIIN: 4321</p>
+              <p>Institute Code: 1234567</p>
+            </div>
+
+          </div>
+          <div class="col-lg-5 col-md-4">
+            <div class="header-login-register">
+              <ul class="login">
+                <li>
+                  <a href="#"><i class="fa fa-key"></i>Login</a>
+                  <div class="login-form">
+                    <h4>Login</h4>
+                    <form action="#" method="post">
+                      <div class="form-box">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="user-name" placeholder="Username" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="user-password" placeholder="Password" />
+                      </div>
+                      <div class="button-box">
+                        <button type="submit" class="login-btn">Login</button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+              <ul class="register">
+                <li>
+                  <a href="#"><i class="fa fa-lock"></i>Sign Up</a>
+                  <div class="register-form">
+                    <h4>Sign Up</h4>
+                    <span>Please sign up using account detail bellow.</span>
+                    <form action="#" method="post">
+                      <div class="form-box">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="user-name" placeholder="Username" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="user-password" placeholder="Password" />
+                      </div>
+                      <div class="form-box">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" name="user-email" placeholder="Email" />
+                      </div>
+                      <div class="button-box">
+                        <input checked data-toggle="toggle" type="checkbox" />
+                        <span>Remember me</span>
+                        <button type="submit" class="register-btn">
+                          Register
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------ -->
+    <div class="col-md-12 text-blue text-center">
+      <h2>
+        <span style="color:#0b0a0a;font-size:25px;font-family: sans-serif; ">Web Point</span><br>
+        <span style="color:#0f0e0e;font-size:25px;font-family: sans-serif;">ওয়েব পয়েন্ট লিমিটেড</span>
+      </h2>
+    </div>
+    <!--Logo Mainmenu Start-->
+    <div class="header-logo-menu sticker">
+      <div class="container">
+        <div class="logo-menu-bg">
+          <div class="row">
+            <div class="col-lg-3 col-md-12">
+              <div class="logo">
+                <a href="index.html"><img src="img/logo/logo.png" alt="logo" /></a>
+              </div>
+            </div>
+            <div class="col-lg-9 d-none d-lg-block">
+              <div class="mainmenu-area">
+                <div class="mainmenu">
+                  <nav>
+                    <ul id="nav">
+                      <li><a href="index.html">Home</a></li>
+                      <li class="current">
+                        <a href="index.html">Institute <i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="#">About Institute <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="about.html">Introduction </a></li>
+                              <li><a href="GoverningBody.html">Governing Body</a></li>
+                              <li><a href="Founder.html">Founder & Donor</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Admistration Message <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="Principalmessage.html">Principal Message </a></li>
+                              <li><a href="Presidentmessage.html">President Message</a></li>
+                             
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Infrastructure <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="building.html">Building & Room </a></li>
+                              <li><a href="library.html">library</a></li>
+                              <li><a href="Transport.html">Transport Management</a></li>
+                              <li><a href="Principalmessage.html"> Hostel </a></li>
+                              <li><a href="Principalmessage.html">Land Information </a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="index-3.html">Academics <i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+
+                              <li><a href="Principalmessage.html">Class- Routine </a></li>
+                              <li><a href="Principalmessage.html">Diray Management</a></li>
+                              <li><a href="Presidentmessage.html">Academic Claender</a></li>
+                              <li><a href="Principalmessage.html">Syllabus</a></li>
+                              <li><a href="Principalmessage.html"> Performance </a></li>
+                              
+                            </ul>
+                          </li>                      
+                          <li>
+                            <a href="index-5.html">Digital Campus<i class="fa fa-angle-right"></i></a>
+                            <ul class="subdrop">
+                              <li><a href="Principalmessage.html">Multimedia Class Room </a></li>
+                              <li><a href="Principalmessage.html">Computer Lab</a></li>
+                              <li><a href="Presidentmessage.html">Science</a></li>                                                            
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a href="#">Team <i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li><a href="ManagingComt.html"> Managing Committee </a></li>
+                          <li><a href="teacher.html"> Teachers </a></li>
+                          <li>
+                            <a href="Staff.html">Staff</a>
+                          </li>
+                          <li>
+                            <a href="WAPC.html"> Women Abuse Prevention Committee </a>
+                          </li>
+                          <li>
+                            <a href="Tswt.html"> Teacher & Staff Welfare Trust </a>
+                          </li>
+                          <li>
+                            <a href="TCI.html"> Teachers Council Information </a>
+                          </li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="teacher.html">Result<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="Internalresult.html">Internal Result</a>
+                          </li>
+                          <li>
+                            <a href="PublicResult.html">Public Examination</a>
+                          </li>
+                          <li>
+                            <a href="onlineAdmission.html">Online Admission</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li>
+                        <a href="index.html">News & Notice<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li><a href="#">Notice & News</a></li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Information<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="SportsCulturalActivities.html"> Sports & Cultural Program </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Center Information </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Scholarship Info </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> BNCC </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Rover Scout </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Tender </a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html"> Privacy Policy </a>
+                          </li>
+
+
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <ul class="header-search">
+                  <li class="search-menu">
+                    <i id="toggle-search" class="fa fa-search"></i>
+                  </li>
+                </ul>
+                <!--Search Form-->
+                <div class="search">
+                  <div class="search-form">
+                    <form id="search-form" action="#">
+                      <input type="search" placeholder="Search here..." name="search" />
+                      <button type="submit">
+                        <span><i class="fa fa-search"></i></span>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <!--End of Search Form-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of Logo Mainmenu-->
+    <!-- Mobile Menu Area start -->
+    <div class="mobile-menu-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="mobile-menu">
+              <nav id="dropdown">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li>
+                    <a href="index.html">Institute </a>
+                    <ul>
+                      <li><a href="index-2.html">About Institute</a>
+                        <ul class="subdrop">
+                          <li class="bg-primary"><a href="#">Introduction</a></li>
+                          <li class="bg-success"><a href="#">Governing Body</a></li>
+                          <li class="bg-primary"><a href="#">Founder & Donor</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="index-3.html">Admistration Message</a></li>
+                      <li><a href="index-4.html">Infrastructure</a></li>
+                      <li><a href="index-5.html">Academics</a></li>
+                      <li><a href="index-5.html">Digital Campus</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="class-grid.html">Team</a>
+                    <ul>
+                      <li><a href="class-grid.html">Managing Committee</a></li>
+                      <li><a href="class-list.html">Teachers</a></li>
+                      <li><a href="class-details.html">Staff</a></li>
+                      <li><a href="class-details.html">Women Abuse Prevention Committee</a></li>
+                      <li><a href="class-details.html">Teacher & Staff Welfare Trust</a></li>
+                      <li><a href="class-details.html">Teachers Council Information</a></li>
+
+
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="teacher.html">Result</a>
+                    <ul>
+                      <li><a href="teacher-info.html">Internal Result</a></li>
+                      <li><a href="teacher-info.html">Public Examination</a></li>
+                      <li><a href="teacher-info.html">Online Admission</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li>
+                    <a href="#.html">News & Notice</a>
+                    <ul>
+                      <li><a href="#.html">Notice & News</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="class-grid.html">Information</a>
+                    <ul>
+                      <li><a href="class-grid.html">Sports & Cultural Program </a></li>
+                      <li><a href="class-list.html">Center Information</a></li>
+                      <li><a href="class-details.html"> Scholarship Info</a></li>
+                      <li><a href="class-details.html">BNCC </a></li>
+                      <li><a href="class-details.html">Rover Scout</a></li>
+                      <li><a href="class-details.html">Tender</a></li>
+                      <li> <a href="blog-details.html"> Privacy Policy </a> </li>
+
+                    </ul>
+                  </li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu Area end -->
+
+  </header>
+  <!--End of Header Area-->
+
+    <!-- ---------------------- -->
+    <section class="padding-y-100 border-bottom m-3" style="border: medium dashed  blue; ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <h1
+                        style="overflow-wrap: break-word; font-size: 32px; margin: 60px 0px 20px; border-width: 0px 0px 0px 6px; border-top-style: initial; border-right-style: initial; border-bottom-style: initial; border-left-style: solid; border-top-color: initial; border-right-color: initial; border-bottom-color: initial; border-left-color: rgb(155, 184, 40); border-image: initial; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: quot;; outline: 0px; padding: 0px 0px 0px 16px; vertical-align: baseline; color: rgb(0, 0, 0);">
+                        Sports &amp; Cultural Activities</h1>
+                    <h2
+                        style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family:quot; font-size: 22px; margin: 10px 0px 20px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(184, 40, 50);">
+                        Sport</h2>
+                    <h2
+                        style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-family: DauphinPlain; font-size: 24px; line-height: 24px; color: rgb(0, 0, 0);">
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            <span class="intro-text"
+                                style="border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: 1.4em; font-family:quot;; font-size: 19px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Scots
+                                College sport openly encourages healthy competition so students can learn much more than
+                                simply ‘winning and losing’. We provide a comprehensive programme which caters for all
+                                interests and abilities, while ensuring the Scots College community is represented with
+                                pride. All Middle School students are expected to take part in sporting
+                                activities.</span></p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            The College offers an extremely wide range of sporting activities and our students can
+                            discover their potential, explore their interests and develop their sportsmanship, teamwork
+                            and fair play in a competitive setting. There is a broad range of both summer and winter
+                            sporting options. These can be viewed in our&nbsp;<a
+                                href="https://www.scotscollege.school.nz/sports-centre/"
+                                style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(184, 40, 50);">sports
+                                centre</a></p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            As part of the school day Years 7 &amp; 8 spend Thursday afternoons either taking part in
+                            fixtures or participating in basic sport skills practices. During Terms 1 and 4 we have
+                            summer fixtures against other independent schools across the north island in cricket,
+                            softball and tennis. During Terms 2 and 3 we have winter fixtures in rugby, football and
+                            hockey. Each year we tour to the Hawkes’ Bay and biennially our top teams tour to play
+                            against the best independent schools in Auckland. Our coaching programmes are run by club
+                            coaches and teachers for all six sports. The focus is on improving individual performance
+                            with a strong and positive team culture. Often there will be a further training session
+                            either before or after school to best prepare our young athletes for the challenging and fun
+                            fixtures throughout the year.</p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            Those that opt out of competitive sport will play a multitude of small skilled games, learn
+                            to swim/dive, develop basketball skills and use our cycle track amongst many other
+                            fundamental skill development activities. We cater for all levels of ability from the mighty
+                            4th XI to the competitive 1st teams to ensure an opportunity for all to strive and improve
+                            their personal best.</p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            Year 9 and 10 students are involved in the College Sport Wellington (CSW) competition where
+                            they compete against other secondary schools after school or on the weekends in a number of
+                            sports.</p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            Year 7 and 8 students continue to play for their club teams on Saturday and are eligible for
+                            selection to represent the College in our traditional fixtures, currently against Hereworth,
+                            Huntley, St George’s, Wellesley and Lindisfarne in Cricket, Tennis, Softball, Rugby, Hockey,
+                            and Football. Trials will be held prior to the commencement of the fixtures. These fixtures
+                            are generally played on Thursdays during school hours. In some cases billeting is involved.
+                        </p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            Year 7 and 8 students are selected to enter Primary Sport Wellington events (PSW). These
+                            include: Athletics, Cross Country and Swimming. Selection is based on their school placing
+                            in these events. Selected students will represent the College at the Eastern Zone
+                            competition. Should they do well at this event event then they go through to the Wellington
+                            Interzone competition to represent the Eastern Zone schools. This can also lead to Regional
+                            competitions.</p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            Other local based competitions available for Year 7 and 8 students include Water Polo, Touch
+                            Rugby, Cycling, Underwater Hockey and Basketball.</p>
+                    </h2>
+                    <h2
+                        style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: quot; font-size: 22px; margin: 10px 0px 20px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(184, 40, 50);">
+                        Culture</h2>
+                    <h2
+                        style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-family: DauphinPlain; font-size: 24px; line-height: 24px; color: rgb(0, 0, 0);">
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            <span class="intro-text"
+                                style="border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: 1.4em; font-family: quot; font-size: 19px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Scots
+                                College strongly encourages our Middle School students to explore and develop skills and
+                                talents in cultural activities, including performing arts as part of their all-round
+                                education.</span></p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            The Creative and Performing Arts Centre provides our students with a world-class creative
+                            facility in which to develop their individual skills, interests and imagination.</p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            A wide range of activities is available and each student participates according to interests
+                            and abilities.</p>
+                    </h2>
+                    <h2
+                        style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: quot; font-size: 22px; margin: 10px 0px 20px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(184, 40, 50);">
+                        Art and Design</h2>
+                    <h2
+                        style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-family: DauphinPlain; font-size: 24px; line-height: 24px; color: rgb(0, 0, 0);">
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            <span class="intro-text"
+                                style="border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: 1.4em; font-family:quot; font-size: 19px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">The
+                                ability to think creatively and laterally is a key success factor in today’s competitive
+                                environment. Whether it be design, creative technologies, photography, fine arts,
+                                graphics or media studies which interests our students, we provide courses of study that
+                                enable our students to build careers out of their artistic pursuits.</span></p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            Our programmes are flexible and are designed to assist students gain an understanding and
+                            appreciation of art and creative thinking. They explore how different media influence the
+                            communication of ideas and examine the purpose of images and objects and the contexts in
+                            which they were made.</p>
+                    </h2>
+                    <h2
+                        style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: quot; font-size: 22px; margin: 10px 0px 20px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(184, 40, 50);">
+                        Music</h2>
+                    <h2
+                        style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-family: DauphinPlain; font-size: 24px; line-height: 24px; color: rgb(0, 0, 0);">
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            <span class="intro-text"
+                                style="border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: 1.4em; font-family: quot; font-size: 19px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Music
+                                also plays an important role in the day to day life of Scots College. It encourages
+                                independence, poise and self-esteem as well as confidence and provides opportunities for
+                                risk taking.</span></p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            Students are offered a wide range of instruments as options for tuition as well as various
+                            ensemble groups (choir, chamber, orchestral and jazz) and the pipe band. These ensembles
+                            enjoy an excellent reputation nationally.</p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            The College operates a visiting Music Tutor Scheme that includes many outstanding performers
+                            of international and national reputation.</p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            The House Music Competition is a highlight of our annual House competition programme and,
+                            throughout the year, instrumental competitions gain parental and student support.</p>
+                        <p
+                            style="overflow-wrap: break-word; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.5em; font-family: Arial, Helvetica, sans-serif; font-size: 15px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(102, 102, 102);">
+                            Our Choirs draw from all student age groups in their provision of choral support for Chapel
+                            services on weekdays and Sundays. Students can attend a variety of music concerts throughout
+                            the year.</p>
+                    </h2>
+                </div>
+            </div> <!-- END row-->
+        </div> <!-- END container-->
+    </section>
+
+    <!-- --------------- -->
+
+
+
+  <!--Footer Area Start-->
+  <div class="footer-area">
+    <div class="container">
+      <div class="footer-widget-container section-padding ">
+        <div class="row">
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget">
+              <img src="img/logo/logo.png" alt="">
+              <ul class="footer-widget-list ">
+                <p>WP-IMS is a latest technology of educational institute’s digitization. This is the fastest and most
+                  intelligent application ever made in Bangladesh.</p>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget ">
+              <h4>Links</h4>
+              <ul class="footer-widget-list ">
+                <li><a href="#"> Dhaka Education Board</a></li>
+                <li><a href="#"> Ministry of Education</a></li>
+                <li><a href="#"> National University</a></li>
+                <li><a href="#"> 10 minute school</a></li>
+                <li><a href="#"> Khan Academy</a></li>
+                <li><a href="#">শিক্ষক বাতায়ন</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-2 col-sm-4">
+            <div class="single-footer-widget">
+              <h4>Contact Us</h4>
+              <ul class="footer-widget-list fwl">
+
+                <li class="list-inline-item"><a class="iconbox   mr-3  mt-2" href="#" target="_blank"><i
+                      class="fa fa-phone  " aria-hidden="true" style=" color: #f9f9f9;font-size: 16px; "></i> </a><a
+                    href="tel:+8801875004610">+8801875004610</a>
+                </li>
+                <li class="list-inline-item"><a class="iconbox   mr-3  mt-2" href="#" target="_blank"><i
+                      class="fa fa-envelope  " aria-hidden="true" style=" color: #ffffff;font-size: 16px; "></i></a> <a
+                    href="">info@webpointbd.com</a> </li>
+
+                <li>
+                  <div class="media">
+                    <a class="iconbox   mr-3  mt-3" href="#" target="_blank"><i class="fa fa-map-marker   "
+                        aria-hidden="true" style=" color: #ffffff;font-size: 16px; "></i></a>
+                    <div class="media-body">
+                      <a href="#" style="line-height: normal;">Hoque Mansion(1st Floor),Arakan Road, Badurtola,
+                        Panchlaish,Chattogram</a>
+                    </div>
+                  </div>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 footerCopyRight ">
+          <div class="footer-container">
+            <div class="row">
+              <div class="col-lg-6 ">
+                <span>&copy;
+                  <a href="#"> 2023 WebPointLtd. All rights reserved. Created by Web Point Ltd.</a>
+                </span>
+              </div>
+              <div class="col-lg-6">
+                <div class="social-links">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Footer Area-->
+  <!-- <div class="footerCopyRight">
+   
+</div> -->
+
+  <!-- jquery
+		============================================ -->
+  <script src="js/vendor/jquery-1.12.3.min.js"></script>
+
+  <!-- Popper JS
+		============================================ -->
+  <script src="js/popper.js"></script>
+
+  <!-- bootstrap JS
+		============================================ -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- bootstrap Toggle JS
+		============================================ -->
+  <script src="js/bootstrap-toggle.min.js"></script>
+
+  <!-- nivo slider js
+		============================================ -->
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js"></script>
+  <script src="lib/nivo-slider/home.js"></script>
+
+  <!-- wow JS
+		============================================ -->
+  <script src="js/wow.min.js"></script>
+
+  <!-- meanmenu JS
+		============================================ -->
+  <script src="js/jquery.meanmenu.js"></script>
+
+  <!-- Owl carousel JS
+		============================================ -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!-- Countdown JS
+		============================================ -->
+  <script src="js/jquery.countdown.min.js"></script>
+
+  <!-- scrollUp JS
+		============================================ -->
+  <script src="js/jquery.scrollUp.min.js"></script>
+
+  <!-- Waypoints JS
+		============================================ -->
+  <script src="js/waypoints.min.js"></script>
+
+  <!-- Counterup JS
+		============================================ -->
+  <script src="js/jquery.counterup.min.js"></script>
+
+  <!-- Slick JS
+		============================================ -->
+  <script src="js/slick.min.js"></script>
+
+  <!-- Mix It Up JS
+		============================================ -->
+  <script src="js/jquery.mixitup.js"></script>
+
+  <!-- Venubox JS
+		============================================ -->
+  <script src="js/venobox.min.js"></script>
+
+  <!-- plugins JS
+		============================================ -->
+  <script src="js/plugins.js"></script>
+
+
+  <!-- main JS
+		============================================ -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
